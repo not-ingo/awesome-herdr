@@ -1,0 +1,10 @@
+version: 1
+
+scope:
+  id: 16a0309c-34ed-4a7c-b2e5-e66035d25ab5
+  name: awesome-herdr
+
+agent:
+  name: Awesome Herdr Agent
+  harness: claude
+  max_sessions: 1
