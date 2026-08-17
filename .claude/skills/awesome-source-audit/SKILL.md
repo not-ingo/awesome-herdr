@@ -364,7 +364,30 @@ sections to keep it alive.
    license appearing promotes them straight into Phase 3.
 
    `"changes": "none"` is the product, not an admission of a wasted run.
-4. Record the run against the Factory task run per the root `AGENTS.md`:
+4. **Commit the run locally.** The audit is not finished while it sits in the
+   working tree — the ledger's value is its history, and an uncommitted run is
+   a run that can be lost or silently overwritten by the next one.
+
+   ```bash
+   git add README.md data/sources.json
+   git commit -m "Weekly audit YYYY-MM-DD: <one-line summary>"
+   ```
+
+   Rules for the commit:
+   - **Only `README.md` and `data/sources.json`.** Never `git add -A`; never
+     commit scratch files, and stop to ask if anything else is modified.
+   - **Commit even when nothing changed.** A run that verifies 39 entries and
+     changes no listing still updates `last_verified`, `last_ok`, and the
+     `audits` array. `Weekly audit 2026-08-17: changes none, 39 verified, 12
+     candidates at sighting 1` is exactly the commit this list wants in its
+     history.
+   - **Summarize honestly in the subject line** — the counts, and `changes
+     none` when that is the result. The body is the place for admissions,
+     retirements, and anything left unverified.
+   - **Do not push, and do not open a pull request.** Committing is local
+     bookkeeping; publishing needs explicit human approval per the root
+     `AGENTS.md`. Say in your report that the commit is local and unpushed.
+5. Record the run against the Factory task run per the root `AGENTS.md`:
    `run_progress` while working, `run_decision` for every admission,
    retirement, and replacement (with rationale and rejected alternative), then
    `run_complete`.
@@ -377,9 +400,11 @@ sections to keep it alive.
   from a response you actually received this run.
 - **Do not add pages.** No new markdown files, no docs directory, no tutorials.
   Links only.
-- **Do not publish or push.** Edit files in this repository only — no PRs, no
-  posts, no submissions to other lists, no comments on the sources you find.
-  Publication needs explicit human approval per the root `AGENTS.md`.
+- **Do not publish or push.** Edit and commit files in this repository only —
+  no pushes, no PRs, no posts, no submissions to other lists, no comments on
+  the sources you find. Committing locally is part of the run (Phase 7);
+  everything past the local branch needs explicit human approval per the root
+  `AGENTS.md`.
 - **Do not touch anything outside this project directory**, and do not modify
   the user's Herdr configuration or running session.
 - **Report honestly.** "Nothing changed, 39 verified, 1 candidate at sighting 2
