@@ -384,10 +384,30 @@ sections to keep it alive.
    - **Summarize honestly in the subject line** — the counts, and `changes
      none` when that is the result. The body is the place for admissions,
      retirements, and anything left unverified.
-   - **Do not push, and do not open a pull request.** Committing is local
-     bookkeeping; publishing needs explicit human approval per the root
-     `AGENTS.md`. Say in your report that the commit is local and unpushed.
-5. Record the run against the Factory task run per the root `AGENTS.md`:
+5. **Push the run to `main`.**
+
+   ```bash
+   git push origin main
+   ```
+
+   The audit's whole point is that a reader can trust the published list, so
+   the run is not finished until what they read matches what you verified.
+   Push on every run, including `changes: none` runs — the refreshed
+   `last_verified` dates are the evidence that the list is being maintained.
+
+   The boundary is narrow and stops here:
+   - **This repository's `main`, and nothing else.** No pull requests, no
+     force-push, no other branches, no other remotes.
+   - **Nothing outward-facing.** Submitting to other awesome lists, posting
+     about the list, or commenting on the sources you find still needs
+     explicit human approval per the root `AGENTS.md`.
+   - **Never push a dirty or partial run.** Commit first, confirm
+     `git status` is clean, and if the audit was cut short — rate limits,
+     entries left unverified — push what you honestly recorded, with the
+     gaps written into the `audits` entry.
+   - If the push is rejected, someone else moved `main`. Pull, rebase, and
+     re-check the reconciliation before pushing again; never force.
+6. Record the run against the Factory task run per the root `AGENTS.md`:
    `run_progress` while working, `run_decision` for every admission,
    retirement, and replacement (with rationale and rejected alternative), then
    `run_complete`.
@@ -400,11 +420,11 @@ sections to keep it alive.
   from a response you actually received this run.
 - **Do not add pages.** No new markdown files, no docs directory, no tutorials.
   Links only.
-- **Do not publish or push.** Edit and commit files in this repository only —
-  no pushes, no PRs, no posts, no submissions to other lists, no comments on
-  the sources you find. Committing locally is part of the run (Phase 7);
-  everything past the local branch needs explicit human approval per the root
-  `AGENTS.md`.
+- **Publish the list, and nothing else.** Committing and pushing this
+  repository's `main` is part of the run (Phase 7). Everything else is off
+  limits without explicit human approval per the root `AGENTS.md`: no pull
+  requests, no submissions to other awesome lists, no posts about the list, no
+  comments or issues on the sources you find.
 - **Do not touch anything outside this project directory**, and do not modify
   the user's Herdr configuration or running session.
 - **Report honestly.** "Nothing changed, 39 verified, 1 candidate at sighting 2

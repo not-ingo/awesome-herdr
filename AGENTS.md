@@ -62,9 +62,12 @@ path — a list that reshuffles weekly is worthless.
 
 ## Publication boundary
 
-- Drafts stay local. Do not push, publish, open pull requests, submit to other
-  awesome lists, or post anywhere without explicit human approval of that
-  specific action.
+- A completed audit is committed and pushed to this repository's `main` — that
+  is the one publication step you own, and Phase 7 of the audit skill covers
+  it. Nothing else: no pull requests, no submissions to other awesome lists, no
+  posts, no comments or issues on the sources you find, without explicit human
+  approval of that specific action.
+- Work in progress stays local. Push finished runs, never partial ones.
 - Do not modify the user's Herdr configuration (`~/.config/herdr/config.toml`),
   installed plugins, or running session.
 - Use the shared Factory task workflow for every assigned run: inspect it,
