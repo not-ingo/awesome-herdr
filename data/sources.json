@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated": "2026-08-12",
-  "bar": "\u226525 stars on GitHub, or \u226510 on GitLab/Codeberg (smaller populations, so the same count means more); licensed, pushed within 60 days, not archived, Herdr-specific \u2014 or official. Articles: substantive first-hand accounts. Link canonical homes, never mirrors.",
+  "bar": "≥25 stars on GitHub, or ≥10 on GitLab/Codeberg (smaller populations, so the same count means more); licensed, pushed within 60 days, not archived, Herdr-specific — or official. Articles: substantive first-hand accounts. Link canonical homes, never mirrors.",
   "notes": "Authoritative over README.md. Rules live in .claude/skills/awesome-source-audit/SKILL.md. The marketplace held 605 herdr-plugin repositories at seed time; this ledger is the filter over it.",
   "audits": [
     {
@@ -26,19 +26,19 @@
       "date": "2026-08-12",
       "kind": "marketplace sweep",
       "verified": 39,
-      "searched": "GitHub search topic:herdr-plugin stars:>=25 \u2014 all 34 results reviewed, herdr-plugin.toml presence confirmed per repo (root or subdirectory)",
+      "searched": "GitHub search topic:herdr-plugin stars:>=25 — all 34 results reviewed, herdr-plugin.toml presence confirmed per repo (root or subdirectory)",
       "changes": "Added 11 marketplace entries and two sections (Sandboxes and isolation, Browsers and viewers). Recorded 3 unlicensed high-star repos as rejected pending a license.",
       "probation": [],
       "candidates": [],
-      "notes": "Personal dotfiles repositories (edmundmiller \u2b5078, lararosekelley \u2b5051) excluded as not Herdr-specific deliverables. Subdirectory installs noted in entries: crabbox/plugins/herdr, terminal-browser/herdr-plugin, ghzinga/plugins/herdr."
+      "notes": "Personal dotfiles repositories (edmundmiller ⭐78, lararosekelley ⭐51) excluded as not Herdr-specific deliverables. Subdirectory installs noted in entries: crabbox/plugins/herdr, terminal-browser/herdr-plugin, ghzinga/plugins/herdr."
     },
     {
       "date": "2026-08-17",
       "kind": "weekly",
       "verified": 39,
       "unverified": [],
-      "searched": "GitHub topic:herdr-plugin stars>=25 (36 of 684, all reviewed), topic:herdr stars>=25 (27), herdr in:name,description stars>=25 (39) to catch untagged repos; GitLab topic + search (16 hits, all 0 stars, all noise or mirrors); Codeberg search (3 hits, max 1 star); Hacker News via Algolia; web search for articles; yigitkonur/awesome-herdr read in full; herdr.dev/blog and herdrdev/herdr releases. Reddit could not be reached from this environment (reddit.com blocked, search proxies returned nothing relevant) \u2014 recorded as a gap, not as a clean result.",
-      "changes": "none \u2014 no admissions, no retirements, no strikes. Star counts and the marketplace size refreshed.",
+      "searched": "GitHub topic:herdr-plugin stars>=25 (36 of 684, all reviewed), topic:herdr stars>=25 (27), herdr in:name,description stars>=25 (39) to catch untagged repos; GitLab topic + search (16 hits, all 0 stars, all noise or mirrors); Codeberg search (3 hits, max 1 star); Hacker News via Algolia; web search for articles; yigitkonur/awesome-herdr read in full; herdr.dev/blog and herdrdev/herdr releases. Reddit could not be reached from this environment (reddit.com blocked, search proxies returned nothing relevant) — recorded as a gap, not as a clean result.",
+      "changes": "none — no admissions, no retirements, no strikes. Star counts and the marketplace size refreshed.",
       "trending": "0 added, 0 expired; growth item re-measured (28.2k -> 30,028 stars, 605 -> 684 marketplace repos)",
       "probation": [],
       "candidates": [
@@ -55,32 +55,32 @@
         "HN 48756578 (404 pts) - sighting 1 of 3",
         "HN 49201003 (281 pts) - sighting 1 of 3"
       ],
-      "notes": "Phase 5 weakest-entry review: madarco/agentbox-herdr-plugin (26 stars, last push 2026-06-24, 54 days) is the weakest listed entry and a thin front end for its parent project. It still clears every bar today, so it stays listed; re-check next week because it breaches the 60-day liveness rule on 2026-08-23 if nothing lands. Section pressure noted: Remote and mobile holds 4 listed entries and 5 candidates queued, so it will hit the 8-entry soft cap around 2026-09-07 and will need a split or a replacement decision. The three license-blocked rejects were re-checked and all three are still unlicensed (pi-extensible-workflows 180, herdr-tab-smart-rename 41, herdr-board 33); joelhooks/pi-bellwether joins them. The only new dated Herdr event this week was a preview build (preview-2026-08-17), deliberately not added to Trending \u2014 preview-channel builds are not releases and listing them would pad the section."
+      "notes": "Phase 5 weakest-entry review: madarco/agentbox-herdr-plugin (26 stars, last push 2026-06-24, 54 days) is the weakest listed entry and a thin front end for its parent project. It still clears every bar today, so it stays listed; re-check next week because it breaches the 60-day liveness rule on 2026-08-23 if nothing lands. Section pressure noted: Remote and mobile holds 4 listed entries and 5 candidates queued, so it will hit the 8-entry soft cap around 2026-09-07 and will need a split or a replacement decision. The three license-blocked rejects were re-checked and all three are still unlicensed (pi-extensible-workflows 180, herdr-tab-smart-rename 41, herdr-board 33); joelhooks/pi-bellwether joins them. The only new dated Herdr event this week was a preview build (preview-2026-08-17), deliberately not added to Trending — preview-channel builds are not releases and listing them would pad the section."
     },
     {
       "date": "2026-08-29",
       "kind": "catch-up",
       "verified": 39,
       "unverified": [],
-      "searched": "GitHub topic:herdr-plugin stars>=25 (50 of 884, all reviewed), topic:herdr stars>=25 (37), herdr in:name,description stars>=25 (56) to catch untagged repos; GitLab topic + search (0 qualifying hits, all noise); Codeberg search (4 hits, max 1 star); Hacker News via Algolia (all-time top stories plus everything posted since 2026-08-08, including two Show HN threads run down to their repos: shepherdr 4 stars and eyalev/herdr-web 3 stars, both well below the bar); web search for articles and adoption; herdr.dev/blog (nothing new since 2026-08-06) and herdrdev/herdr releases (v0.8.2 found, 2026-08-19). Reddit returned HTTP 403 from this environment again \u2014 recorded as a continuing gap, not a clean result.",
-      "changes": "3 listed entries moved to probation for exceeding the 60-day liveness bar (JanTvrdik/herdr-command-palette, madarco/agentbox-herdr-plugin, rjyo/herdr-window-title-sync) \u2014 removed from the README this run, no strikes. The Sandboxes and isolation section consequently dropped to one entry (crabbox) and was folded into Extras per the two-entries-to-exist rule. No other listing changes. All 12 sighting-1 candidates from 2026-08-17 still qualify and advanced to sighting 2 (still not listed). 2 rejects re-promoted to candidate sighting 1 after a license appeared (joelhooks/pi-bellwether, ChmaraX/herdr-nvim). 12 new candidates recorded at sighting 1. 7 new rejects recorded with reasons.",
+      "searched": "GitHub topic:herdr-plugin stars>=25 (50 of 884, all reviewed), topic:herdr stars>=25 (37), herdr in:name,description stars>=25 (56) to catch untagged repos; GitLab topic + search (0 qualifying hits, all noise); Codeberg search (4 hits, max 1 star); Hacker News via Algolia (all-time top stories plus everything posted since 2026-08-08, including two Show HN threads run down to their repos: shepherdr 4 stars and eyalev/herdr-web 3 stars, both well below the bar); web search for articles and adoption; herdr.dev/blog (nothing new since 2026-08-06) and herdrdev/herdr releases (v0.8.2 found, 2026-08-19). Reddit returned HTTP 403 from this environment again — recorded as a continuing gap, not a clean result.",
+      "changes": "3 listed entries moved to probation for exceeding the 60-day liveness bar (JanTvrdik/herdr-command-palette, madarco/agentbox-herdr-plugin, rjyo/herdr-window-title-sync) — removed from the README this run, no strikes. The Sandboxes and isolation section consequently dropped to one entry (crabbox) and was folded into Extras per the two-entries-to-exist rule. No other listing changes. All 12 sighting-1 candidates from 2026-08-17 still qualify and advanced to sighting 2 (still not listed). 2 rejects re-promoted to candidate sighting 1 after a license appeared (joelhooks/pi-bellwether, ChmaraX/herdr-nvim). 12 new candidates recorded at sighting 1. 7 new rejects recorded with reasons.",
       "trending": "v0.8.2 release added, supersedes the v0.8.0 item; growth item re-measured (33,189 stars, 884 marketplace repos, up from 28.2k/684); no other changes, nothing expired.",
       "probation": [
-        "JanTvrdik/herdr-command-palette \u2014 fell below the 60-day liveness bar (61 days), not a strike",
-        "madarco/agentbox-herdr-plugin \u2014 fell below the 60-day liveness bar (66 days), not a strike",
-        "rjyo/herdr-window-title-sync \u2014 fell below the 60-day liveness bar (64 days), not a strike",
-        "jhochenbaum/herdr-hunk-diff \u2014 sighting 2 of 3, 97 stars",
-        "kcosr/herdr-web \u2014 sighting 2 of 3, 86 stars",
-        "benkraus/herdr-mobile \u2014 sighting 2 of 3, 52 stars",
-        "KaminariOS/whip \u2014 sighting 2 of 3, 47 stars",
-        "DanielOu1208/agentslate \u2014 sighting 2 of 3, 30 stars",
-        "alexei-led/ccgram \u2014 sighting 2 of 3, 253 stars, still borderline (dual multiplexer)",
-        "qu8n/herdr-automatic-rename \u2014 sighting 2 of 3, 50 stars",
-        "jillesme/pi-herdr-squad \u2014 sighting 2 of 3, 26 stars",
-        "flaviocopes.com/herdr/ \u2014 sighting 2 of 3, article",
-        "blog.debedb.com herdr-and-cmux \u2014 sighting 2 of 3, article",
-        "HN 48756578 \u2014 sighting 2 of 3",
-        "HN 49201003 \u2014 sighting 2 of 3"
+        "JanTvrdik/herdr-command-palette — fell below the 60-day liveness bar (61 days), not a strike",
+        "madarco/agentbox-herdr-plugin — fell below the 60-day liveness bar (66 days), not a strike",
+        "rjyo/herdr-window-title-sync — fell below the 60-day liveness bar (64 days), not a strike",
+        "jhochenbaum/herdr-hunk-diff — sighting 2 of 3, 97 stars",
+        "kcosr/herdr-web — sighting 2 of 3, 86 stars",
+        "benkraus/herdr-mobile — sighting 2 of 3, 52 stars",
+        "KaminariOS/whip — sighting 2 of 3, 47 stars",
+        "DanielOu1208/agentslate — sighting 2 of 3, 30 stars",
+        "alexei-led/ccgram — sighting 2 of 3, 253 stars, still borderline (dual multiplexer)",
+        "qu8n/herdr-automatic-rename — sighting 2 of 3, 50 stars",
+        "jillesme/pi-herdr-squad — sighting 2 of 3, 26 stars",
+        "flaviocopes.com/herdr/ — sighting 2 of 3, article",
+        "blog.debedb.com herdr-and-cmux — sighting 2 of 3, article",
+        "HN 48756578 — sighting 2 of 3",
+        "HN 49201003 — sighting 2 of 3"
       ],
       "candidates": [
         "joelhooks/pi-bellwether - sighting 1 of 3 (re-promoted, license now MIT), 69 stars",
@@ -98,7 +98,59 @@
         "zenbu-labs/terminal-code - sighting 1 of 3, 1737 stars",
         "osolmaz/pi-workflows - sighting 1 of 3, 220 stars, borderline (Herdr is one of several viewers)"
       ],
-      "notes": "Phase 5 weakest-entry review: fkiene/llmtrim-herdr (40 stars, last push 58 days ago, closest to the liveness bar of anything not already probated this run) still clears every bar today, so no action; flagged to re-check first next audit. Rejected-with-license-missing recheck: pi-extensible-workflows (196\u2605), herdr-tab-smart-rename (67\u2605), herdr-board (71\u2605), and backpine/remote-agent-workspace (59\u2605) are all still unlicensed. Section-cap watch: Remote and mobile now has 4 listed plus 6 candidates in the pipeline (herdr-web, herdr-mobile, whip, agentslate at sighting 2; Heeler and herdr-studio at sighting 1) \u2014 expect a genuine crowding decision within a few audits, and consider whether some of these are close enough in function to replace rather than add. Struck out yigitkonur/native-shortcuts-herd as a reject despite clearing stars and license: 102 days since its last push is the most stale near-miss found this run. Two Show HN threads (shepherdr, and eyalev/herdr-web \u2014 a different repo from the already-tracked kcosr/herdr-web) were opened and are well under the star bar (4 and 3 stars); not recorded as ledger entries, consistent with not logging every below-bar search hit."
+      "notes": "Phase 5 weakest-entry review: fkiene/llmtrim-herdr (40 stars, last push 58 days ago, closest to the liveness bar of anything not already probated this run) still clears every bar today, so no action; flagged to re-check first next audit. Rejected-with-license-missing recheck: pi-extensible-workflows (196★), herdr-tab-smart-rename (67★), herdr-board (71★), and backpine/remote-agent-workspace (59★) are all still unlicensed. Section-cap watch: Remote and mobile now has 4 listed plus 6 candidates in the pipeline (herdr-web, herdr-mobile, whip, agentslate at sighting 2; Heeler and herdr-studio at sighting 1) — expect a genuine crowding decision within a few audits, and consider whether some of these are close enough in function to replace rather than add. Struck out yigitkonur/native-shortcuts-herd as a reject despite clearing stars and license: 102 days since its last push is the most stale near-miss found this run. Two Show HN threads (shepherdr, and eyalev/herdr-web — a different repo from the already-tracked kcosr/herdr-web) were opened and are well under the star bar (4 and 3 stars); not recorded as ledger entries, consistent with not logging every below-bar search hit."
+    },
+    {
+      "date": "2026-09-08",
+      "kind": "weekly",
+      "verified": 51,
+      "unverified": [],
+      "searched": "GitHub with an authenticated token (5000 core/hour, so no rate-limit gaps this run): topic:herdr-plugin stars>=25 (60 of 1,033, all reviewed), topic:herdr stars>=25 (45), herdr in:name,description stars>=25 (69) to catch untagged repos — 87 unique repositories, 17 not already in the ledger. GitLab topic:herdr-plugin and search=herdr (0 hits at all this run). Codeberg search=herdr (4 hits, max 1 star, all far below the 10-star bar). Hacker News via Algolia: all-time top stories plus every story since 2026-08-25 — 17 hits, the Herdr-relevant ones topping out at 6 points, so nothing new clears the discussion bar. herdr.dev/blog (one new post, 2026-09-07) and herdrdev/herdr releases (v0.9.0, 2026-09-07, release body read in full). Web search for articles and for production adoption. Reddit returned HTTP 403 from this environment for a third consecutive run — recorded as a continuing gap, not a clean result.",
+      "changes": "12 entries completed their third sighting. 11 were listed: herdr-hunk-diff, herdr-web, herdr-mobile, whip, agentslate, herdr-automatic-rename, pi-herdr-squad, two articles (flaviocopes, debedb) and two Hacker News threads (48756578, 49201003). The twelfth, alexei-led/ccgram, was rejected instead — see decisions. fkiene/llmtrim-herdr moved from listed to probation for crossing the 60-day liveness bar (68 days) and left the README; it was the entry flagged on 2026-08-29 for a first re-check, and the flag was correct. KaminariOS/whip was renamed to kosumic/whip (HTTP 301) — URL updated, not a strike. The three entries probated for staleness on 2026-08-29 are all still stale (JanTvrdik 71 days, madarco 76, rjyo 74) and stay on probation; none has a strike, so none is near retirement. 'Remote and mobile' would have reached 9 listed entries against a soft cap of 8, so it was split into 'Remote access' (3) and 'Phone and mobile' (5). All 14 candidates from 2026-08-29 still qualify and advanced to sighting 2. 14 new candidates recorded at sighting 1, 2 new rejects.",
+      "trending": "3 added, all from 2026-09-07: the v0.9.0 breaking changes (removal of --no-session, workspace close --group, live-only lifecycle subscriptions), the v0.9.0 release itself, and the 'Connecting the machines' blog post naming Herdr Cloud as what comes next. The v0.7.5 breaking-change item was dropped as expired and superseded. Growth item re-measured this run: 36,426 stars and 1,033 marketplace repositories, up from 33,189 and 884 ten days ago; 60 clear the star bar, up from 50. The standing production-adoption gap is unchanged and now shown in the README as a Trending line rather than a hidden ledger note. 8 items, at the cap.",
+      "probation": [
+        "JanTvrdik/herdr-command-palette — still past the liveness bar (71 days), no strike",
+        "madarco/agentbox-herdr-plugin — still past the liveness bar (76 days), no strike",
+        "rjyo/herdr-window-title-sync — still past the liveness bar (74 days), no strike",
+        "fkiene/llmtrim-herdr — new this run, past the liveness bar (68 days), no strike",
+        "joelhooks/pi-bellwether — sighting 2 of 3, 70 stars",
+        "ChmaraX/herdr-nvim — sighting 2 of 3, 146 stars",
+        "Crokily/herdr-lazygit — sighting 2 of 3, 30 stars, 53 days since last push",
+        "ImArtisann/zed-herdr — sighting 2 of 3, 27 stars",
+        "JonasBaeumer/herdr-file-annotator — sighting 2 of 3, 53 stars",
+        "ZingerLittleBee/Heeler — sighting 2 of 3, 263 stars",
+        "aemrebarut/herdr-dagr — sighting 2 of 3, 65 stars",
+        "aigorahub/herdr-lantern — sighting 2 of 3, 62 stars",
+        "jeffarese/herdr-bar — sighting 2 of 3, 37 stars",
+        "levi-qiao/herdr-agent-quota — sighting 2 of 3, 74 stars",
+        "plannotator/herdr-annotate — sighting 2 of 3, 395 stars",
+        "powerfooI/herdr-studio — sighting 2 of 3, 46 stars",
+        "zenbu-labs/terminal-code — sighting 2 of 3, 1910 stars",
+        "osolmaz/pi-workflows — sighting 2 of 3, 267 stars, still borderline"
+      ],
+      "candidates": [
+        "eugenioenko/ttt — sighting 1 of 3, 240 stars, borderline (general editor shipping a herdr-plugin subdirectory)",
+        "kryptamine/herdr-auto-title — sighting 1 of 3, 84 stars, duplicates the listed sh1ma/herdr-auto-title",
+        "dmmulroy/herdr-ts-sdk — sighting 1 of 3, 41 stars, Effect-native TypeScript SDK for the socket API",
+        "senna-lang/herdr-agent-usage — sighting 1 of 3, 31 stars, overlaps levi-qiao/herdr-agent-quota",
+        "ntindle/herdr-resurrect — sighting 1 of 3, 28 stars",
+        "jankeesvw/omarchy-herdr — sighting 1 of 3, 28 stars",
+        "timvdhoorn/stream-deck-herdr-plugin — sighting 1 of 3, 27 stars",
+        "Unayung/herdr-watch — sighting 1 of 3, 27 stars",
+        "speardragon/herdr-plugin-manager — sighting 1 of 3, 26 stars",
+        "riba2534/herdrx — sighting 1 of 3, 26 stars",
+        "oscabriel/pi-herdr-btw — sighting 1 of 3, 25 stars",
+        "arronKler/pairfob — sighting 1 of 3, 25 stars",
+        "Tyru5/herdr-floax — sighting 1 of 3, 25 stars, 44 days since last push",
+        "oborchers/proqi — sighting 1 of 3, 25 stars, borderline (Herdr is one integration among several)"
+      ],
+      "decisions": [
+        "alexei-led/ccgram rejected at sighting 3 rather than listed, resolving the Herdr-specificity question the 2026-08-29 audit deferred to this point. Opening it settled it: CCGram sits on top of a terminal multiplexer and names three interchangeable backends — tmux, Herdr, and agterm — so Herdr is a backend, not the purpose, and the project would be as useful with Herdr removed. The Herdr integration is real and deep (socket protocols 14-20, agent.list as the sole identity source, opaque herdr-session-v1 targets), which is why it survived two sightings, and it fails on specificity alone at 262 stars and MIT. Rejected alternative: listing it in Phone and mobile, where five Herdr-only clients already cover the ground.",
+        "'Remote and mobile' split into 'Remote access' and 'Phone and mobile' rather than retiring a healthy incumbent. The five promotions would have taken the section to 9 against a soft cap of 8, and the cap rule offers splitting or replacing; every incumbent still clears every bar, so retiring one to make room would have been churn. The split is functional — reaching a server from another computer, versus driving agents from a phone — and leaves both sections well under the cap.",
+        "jhochenbaum/herdr-hunk-diff listed despite the overlap flag against herdr-reviewr raised at sighting 1. They are close but not the same job: reviewr is a general review-and-file-viewer sidebar, hunk-diff is hunk-granular diff review with inline comments routed back to the authoring agent. Rejected alternative: replacing reviewr, which has 625 stars and is healthy on every measure. The section sits at 4 of 8, so both fit; re-examine if either stalls.",
+        "kryptamine/herdr-auto-title recorded as a candidate, not listed, even though at 84 stars and a same-day push it is stronger than the listed sh1ma/herdr-auto-title (53 stars, pushed 2026-08-13). Nothing skips probation. If it still qualifies in three weeks this becomes a replace-not-add decision, since the two do the same job under the same name."
+      ],
+      "notes": "Phase 5 weakest-entry review: fkiene/llmtrim-herdr, flagged for a first look on 2026-08-29, had crossed the liveness bar and was handled above, so the discretionary review moved to the next weakest incumbent. That is razajamil/herdr-plugin-workspace-manager (38 stars, pushed 16 days ago, MIT) — it clears every bar and would be admitted today, so no action. Worth noting for a future audit that Navigation and layout now holds three entries doing declarative workspace or session bootstrapping (herdr-spreader, herdr-sessionizer, herdr-plugin-workspace-manager, plus herdr-plugin-sesh as a picker); that is the section most likely to want a replace-not-add decision next. Rejected-with-license-missing recheck: pi-extensible-workflows (208 stars), herdr-tab-smart-rename (70), herdr-board (98), backpine/remote-agent-workspace (60, and now 74 days stale) are all still unlicensed; herdrm (665) likewise, and it is now the largest unlicensed miss, so the README header was updated to lead with it. yigitkonur/native-shortcuts-herd remains rejected at 112 days since last push. Two new rejects this run: tdi/herdr-worktree-setup (25 stars, genuinely Herdr-specific, no license) and apemost/dotfiles (25 stars, carries the herdr topic but the README does not mention Herdr once). The installed binary is 0.8.0 while the current release is 0.9.0, so no claim in this run's Trending items was checked against the binary — all three cite the release notes or the blog, which is the correct source for news."
     }
   ],
   "sources": [
@@ -110,16 +162,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 33189,
+        "stars": 36426,
         "license": "Apache-2.0",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": true,
       "last_change": null,
@@ -133,8 +185,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -142,7 +194,7 @@
         "license": null,
         "last_push": "2026-08-06",
         "kind": "web",
-        "method": "HTTP 200, page read 2026-08-29"
+        "method": "Fetched 2026-09-08, HTTP 200"
       },
       "exempt_from_probation": true,
       "last_change": null,
@@ -156,8 +208,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -165,7 +217,7 @@
         "license": null,
         "last_push": null,
         "kind": "web",
-        "method": "HTTP 200, page read 2026-08-29"
+        "method": "Fetched 2026-09-08, HTTP 200"
       },
       "exempt_from_probation": true,
       "last_change": null,
@@ -179,8 +231,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -188,7 +240,7 @@
         "license": null,
         "last_push": null,
         "kind": "web",
-        "method": "HTTP 200, page read 2026-08-29"
+        "method": "Fetched 2026-09-08, HTTP 200"
       },
       "exempt_from_probation": true,
       "last_change": null,
@@ -202,8 +254,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -211,7 +263,7 @@
         "license": null,
         "last_push": null,
         "kind": "web",
-        "method": "HTTP 200, page read 2026-08-29"
+        "method": "Fetched 2026-09-08, HTTP 200"
       },
       "exempt_from_probation": true,
       "last_change": null,
@@ -225,8 +277,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -234,7 +286,7 @@
         "license": null,
         "last_push": null,
         "kind": "web",
-        "method": "HTTP 200, page read 2026-08-29"
+        "method": "Fetched 2026-09-08, HTTP 200"
       },
       "exempt_from_probation": true,
       "last_change": null,
@@ -248,20 +300,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 556,
+        "stars": 625,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-05",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-smarzban-herdr-file-viewer",
@@ -271,20 +323,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 493,
+        "stars": 538,
         "license": "MIT",
-        "last_push": "2026-08-15",
+        "last_push": "2026-09-02",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-alexarthurs-herdr-sidebar",
@@ -294,20 +346,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 220,
+        "stars": 296,
         "license": "MIT",
-        "last_push": "2026-08-25",
+        "last_push": "2026-09-05",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-thanhdat77-herdr-navigator",
@@ -317,20 +369,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 119,
+        "stars": 133,
         "license": "MIT",
         "last_push": "2026-08-25",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-yuk1ty-herdr-spreader",
@@ -340,20 +392,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 89,
+        "stars": 105,
         "license": "MIT",
         "last_push": "2026-08-16",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-andrewchng-herdr-sessionizer",
@@ -363,20 +415,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 40,
+        "stars": 46,
         "license": "MIT",
-        "last_push": "2026-08-16",
+        "last_push": "2026-09-02",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-JanTvrdik-herdr-command-palette",
@@ -386,20 +438,20 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-09-08",
       "last_ok": "2026-08-17",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 32,
+        "stars": 36,
         "license": "MIT",
         "last_push": "2026-06-29",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": "2026-08-29",
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release. | 2026-08-29: fell below the bar \u2014 no push in 61 days (last push 2026-06-29), over the 60-day liveness limit. Started probation per the CHANGED rule, not a strike; removed from the README this run. Re-verify next audit; a fresh push restores it to listed."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release. | 2026-08-29: fell below the bar — no push in 61 days (last push 2026-06-29), over the 60-day liveness limit. Started probation per the CHANGED rule, not a strike; removed from the README this run. Re-verify next audit; a fresh push restores it to listed."
     },
     {
       "id": "github-com-devashish2203-herdr-worktrunk",
@@ -409,20 +461,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 113,
+        "stars": 134,
         "license": "MIT",
-        "last_push": "2026-08-27",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-NathanFlurry-herdr-plugin-jj-workspace",
@@ -432,112 +484,112 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 45,
+        "stars": 47,
         "license": "MIT",
-        "last_push": "2026-07-08",
+        "last_push": "2026-09-03",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-AltanS-collie",
       "url": "https://github.com/AltanS/collie",
       "title": "collie",
-      "section": "Remote and mobile",
+      "section": "Phone and mobile",
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 558,
+        "stars": 856,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-dcolinmorgan-herdr-remote",
       "url": "https://github.com/dcolinmorgan/herdr-remote",
       "title": "herdr-remote",
-      "section": "Remote and mobile",
+      "section": "Remote access",
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 295,
+        "stars": 328,
         "license": "NOASSERTION",
-        "last_push": "2026-08-25",
+        "last_push": "2026-09-07",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-nikok6-herdr-mirror",
       "url": "https://github.com/nikok6/herdr-mirror",
       "title": "herdr-mirror",
-      "section": "Remote and mobile",
+      "section": "Remote access",
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 196,
+        "stars": 226,
         "license": "MIT",
-        "last_push": "2026-08-23",
+        "last_push": "2026-09-06",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-0cv-herdr-mobile-relay",
       "url": "https://github.com/0cv/herdr-mobile-relay",
       "title": "herdr-mobile-relay",
-      "section": "Remote and mobile",
+      "section": "Phone and mobile",
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 143,
+        "stars": 187,
         "license": "NOASSERTION",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-paulbkim-dev-vim-herdr-navigation",
@@ -547,20 +599,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 98,
+        "stars": 101,
         "license": "MIT",
         "last_push": "2026-08-23",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-lmilojevicc-herdr-splits-nvim",
@@ -570,20 +622,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 54,
+        "stars": 58,
         "license": "MIT",
         "last_push": "2026-08-17",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-ogulcancelik-herdr-browser",
@@ -593,20 +645,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 343,
+        "stars": 348,
         "license": "MIT",
         "last_push": "2026-08-22",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-cloudmanic-herdr-plus",
@@ -616,20 +668,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 270,
+        "stars": 291,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-04",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "joshfinnie-com-blog-switching-to-herdr",
@@ -639,8 +691,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -648,11 +700,11 @@
         "license": null,
         "last_push": null,
         "kind": "web",
-        "method": "HTTP 200, page read 2026-08-29"
+        "method": "Fetched 2026-09-08, HTTP 200"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "en-thedavestack-com-herdr-a-tmux-for-agents",
@@ -662,8 +714,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -671,11 +723,11 @@
         "license": null,
         "last_push": null,
         "kind": "web",
-        "method": "HTTP 200, page read 2026-08-29"
+        "method": "Fetched 2026-09-08, HTTP 200"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "andrew-ooo-posts-herdr-agent-multiplexer-terminal-review",
@@ -685,8 +737,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -694,11 +746,11 @@
         "license": null,
         "last_push": null,
         "kind": "web",
-        "method": "HTTP 200, page read 2026-08-29"
+        "method": "Fetched 2026-09-08, HTTP 200"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "news-ycombinator-com-item?id=48714802",
@@ -708,8 +760,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -717,11 +769,13 @@
         "license": null,
         "last_push": null,
         "kind": "hn",
-        "method": "HTTP 200, page read 2026-08-29"
+        "method": "HN Algolia API 2026-09-08",
+        "points": 166,
+        "comments": 110
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "github-com-yigitkonur-awesome-herdr",
@@ -731,20 +785,20 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 153,
+        "stars": 191,
         "license": "MIT",
         "last_push": "2026-08-16",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed \u2014 first audit should confirm it works on the current release."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release."
     },
     {
       "id": "codeberg-Ra77a3l3-jar-herdr-plugins-nix",
@@ -767,7 +821,7 @@
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Nix flake packaging Herdr plugins. Real and on-topic but 0 stars, no license, no README \u2014 below the 10-star Codeberg bar. Re-check quarterly."
+      "notes": "Nix flake packaging Herdr plugins. Real and on-topic but 0 stars, no license, no README — below the 10-star Codeberg bar. Re-check quarterly."
     },
     {
       "id": "codeberg-buraktamturk-herdr-jcode",
@@ -790,7 +844,7 @@
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Shell helpers (focus/hooks/spawn) around Herdr, LICENSE file present but unrecognized by the API. 0 stars, no push since 2026-06-29 \u2014 below bar and\u8fd1 stale."
+      "notes": "Shell helpers (focus/hooks/spawn) around Herdr, LICENSE file present but unrecognized by the API. 0 stars, no push since 2026-06-29 — below bar and近 stale."
     },
     {
       "id": "gitlab-Gareth-Rouse-herdr-plugin-session-pruner",
@@ -823,16 +877,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 36,
+        "stars": 38,
         "license": "MIT",
         "last_push": "2026-08-23",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -846,16 +900,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 33,
+        "stars": 38,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -869,16 +923,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 1337,
+        "stars": 1376,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": "2026-08-29",
@@ -892,20 +946,20 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-09-08",
       "last_ok": "2026-08-17",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 28,
+        "stars": 30,
         "license": "MIT",
         "last_push": "2026-06-24",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": "2026-08-29",
-      "notes": "From the marketplace sweep of all 25+ star repositories. | 2026-08-29: fell below the bar \u2014 no push in 66 days (last push 2026-06-24), over the 60-day liveness limit. Started probation per the CHANGED rule, not a strike; removed from the README this run. Re-verify next audit; a fresh push restores it to listed."
+      "notes": "From the marketplace sweep of all 25+ star repositories. | 2026-08-29: fell below the bar — no push in 66 days (last push 2026-06-24), over the 60-day liveness limit. Started probation per the CHANGED rule, not a strike; removed from the README this run. Re-verify next audit; a fresh push restores it to listed."
     },
     {
       "id": "github-com-zenbu-labs-terminal-browser",
@@ -915,16 +969,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 2387,
+        "stars": 2761,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-07",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -938,16 +992,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 81,
+        "stars": 85,
         "license": "MIT",
-        "last_push": "2026-07-26",
+        "last_push": "2026-09-06",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -961,16 +1015,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 49,
+        "stars": 51,
         "license": "MIT",
-        "last_push": "2026-08-19",
+        "last_push": "2026-09-07",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -984,16 +1038,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 171,
+        "stars": 193,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1004,23 +1058,23 @@
       "url": "https://github.com/fkiene/llmtrim-herdr",
       "title": "llmtrim-herdr",
       "section": "Extras",
-      "status": "listed",
+      "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-09-08",
       "last_ok": "2026-08-29",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 40,
+        "stars": 44,
         "license": "MPL-2.0",
         "last_push": "2026-07-02",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
-      "last_change": null,
-      "notes": "From the marketplace sweep of all 25+ star repositories."
+      "last_change": "2026-09-08: last push 2026-07-02, 68 days — past the 60-day liveness bar. Probation, not a strike; removed from the README until it is pushed again.",
+      "notes": "From the marketplace sweep of all 25+ star repositories. | 2026-09-08: flagged as the weakest listed entry on 2026-08-29 and re-checked first this run, as planned; it has since crossed the liveness bar."
     },
     {
       "id": "github-com-rjyo-herdr-window-title-sync",
@@ -1030,20 +1084,20 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-09-08",
       "last_ok": "2026-08-17",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 34,
+        "stars": 35,
         "license": "MIT",
         "last_push": "2026-06-26",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": "2026-08-29",
-      "notes": "From the marketplace sweep of all 25+ star repositories. | 2026-08-29: fell below the bar \u2014 no push in 64 days (last push 2026-06-26), over the 60-day liveness limit. Started probation per the CHANGED rule, not a strike; removed from the README this run. Re-verify next audit; a fresh push restores it to listed."
+      "notes": "From the marketplace sweep of all 25+ star repositories. | 2026-08-29: fell below the bar — no push in 64 days (last push 2026-06-26), over the 60-day liveness limit. Started probation per the CHANGED rule, not a strike; removed from the README this run. Re-verify next audit; a fresh push restores it to listed."
     },
     {
       "id": "github-com-sh1ma-herdr-auto-title",
@@ -1053,16 +1107,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 52,
+        "stars": 53,
         "license": "MIT",
         "last_push": "2026-08-13",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1089,7 +1143,7 @@
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Clears the star and liveness bar but ships no license. List it as soon as one appears \u2014 check every audit."
+      "notes": "Clears the star and liveness bar but ships no license. List it as soon as one appears — check every audit."
     },
     {
       "id": "github-com-iurysza-herdr-tab-smart-rename",
@@ -1112,7 +1166,7 @@
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Clears the star and liveness bar but ships no license. List it as soon as one appears \u2014 check every audit."
+      "notes": "Clears the star and liveness bar but ships no license. List it as soon as one appears — check every audit."
     },
     {
       "id": "github-com-nelsonPires5-herdr-board",
@@ -1135,283 +1189,264 @@
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Clears the star and liveness bar but ships no license. List it as soon as one appears \u2014 check every audit."
+      "notes": "Clears the star and liveness bar but ships no license. List it as soon as one appears — check every audit."
     },
     {
       "id": "github-com-jhochenbaum-herdr-hunk-diff",
       "url": "https://github.com/jhochenbaum/herdr-hunk-diff",
       "title": "herdr-hunk-diff",
       "section": "Reviewing and reading code",
-      "status": "probation",
+      "status": "listed",
       "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 97,
+        "stars": 112,
         "license": "MIT",
-        "last_push": "2026-08-26",
+        "last_push": "2026-09-07",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Review agent-authored diffs in hunk and send inline comments back to the responsible agent. herdr-plugin.toml at root; requires Herdr 0.8.0+, Node 22.12+, macOS/Linux. Overlaps herdr-reviewr \u2014 if both still qualify at sighting 3, compare before listing."
+      "notes": "Sighting 3 of 3, listed. Review agent-authored diffs in hunk and send inline comments back to the responsible agent. herdr-plugin.toml at root; requires Herdr 0.8.0+, Node 22.12+, macOS/Linux. Overlaps herdr-reviewr — if both still qualify at sighting 3, compare before listing."
     },
     {
       "id": "github-com-kcosr-herdr-web",
       "url": "https://github.com/kcosr/herdr-web",
       "title": "herdr-web",
-      "section": "Remote and mobile",
-      "status": "probation",
+      "section": "Remote access",
+      "status": "listed",
       "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 86,
+        "stars": 115,
         "license": "MIT",
-        "last_push": "2026-08-26",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Browser client for a running Herdr session via a Rust HTTP/WebSocket bridge; works around Herdr allowing only one terminal attach owner. Requires Herdr 0.8.0+ and terminal protocol 19. No herdr-plugin.toml \u2014 a companion app, not a plugin."
+      "notes": "Sighting 3 of 3, listed. Browser client for a running Herdr session via a Rust HTTP/WebSocket bridge; works around Herdr allowing only one terminal attach owner. Requires Herdr 0.8.0+ and terminal protocol 19. No herdr-plugin.toml — a companion app, not a plugin."
     },
     {
       "id": "github-com-benkraus-herdr-mobile",
       "url": "https://github.com/benkraus/herdr-mobile",
       "title": "herdr-mobile",
-      "section": "Remote and mobile",
-      "status": "probation",
+      "section": "Phone and mobile",
+      "status": "listed",
       "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 52,
+        "stars": 53,
         "license": "MIT",
-        "last_push": "2026-08-23",
+        "last_push": "2026-08-31",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Native iOS/Android client that connects to the separately deployed benkraus/herdr-plugin-mobile-relay. Distinct from the listed 0cv/herdr-mobile-relay."
-    },
-    {
-      "id": "github-com-KaminariOS-whip",
-      "url": "https://github.com/KaminariOS/whip",
-      "title": "whip",
-      "section": "Remote and mobile",
-      "status": "probation",
-      "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
-      "strikes": 0,
-      "sightings": 2,
-      "evidence": {
-        "stars": 47,
-        "license": "AGPL-3.0",
-        "last_push": "2026-08-28",
-        "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
-      },
-      "exempt_from_probation": false,
-      "last_change": null,
-      "notes": "Sighting 1 of 3. Android app for supervising Herdr over SSH/Tailscale; falls back to a plain SSH shell when Herdr is unavailable. AGPL-3.0 \u2014 licensed, but note the copyleft in any entry."
+      "notes": "Sighting 3 of 3, listed. Native iOS/Android client that connects to the separately deployed benkraus/herdr-plugin-mobile-relay. Distinct from the listed 0cv/herdr-mobile-relay."
     },
     {
       "id": "github-com-DanielOu1208-agentslate",
       "url": "https://github.com/DanielOu1208/agentslate",
       "title": "agentslate",
-      "section": "Remote and mobile",
-      "status": "probation",
+      "section": "Phone and mobile",
+      "status": "listed",
       "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": 30,
         "license": "MIT",
         "last_push": "2026-08-11",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. iPhone remote keypad for supervising Herdr agents over Tailscale; requires Herdr 0.8.0+ for live control, ships an offline demo mode. Mac side installs via Homebrew."
+      "notes": "Sighting 3 of 3, listed. iPhone remote keypad for supervising Herdr agents over Tailscale; requires Herdr 0.8.0+ for live control, ships an offline demo mode. Mac side installs via Homebrew."
     },
     {
       "id": "github-com-alexei-led-ccgram",
       "url": "https://github.com/alexei-led/ccgram",
       "title": "ccgram",
-      "section": "Remote and mobile",
-      "status": "probation",
+      "section": "Phone and mobile",
+      "status": "rejected",
       "first_seen": "2026-08-17",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 253,
+        "stars": 262,
         "license": "MIT",
-        "last_push": "2026-08-27",
+        "last_push": "2026-09-05",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
-      "last_change": null,
-      "notes": "Sighting 1 of 3, borderline. Telegram bridge for Claude Code / Codex / Gemini CLI that supports tmux OR Herdr (CCGRAM_MULTIPLEXER=herdr), with Herdr-specific session guarding via agent.list. Decide at sighting 3 whether dual-multiplexer support clears the Herdr-specific bar; the four Herdr-only remote candidates rank ahead of it."
+      "last_change": "2026-09-08: sighting 3 reached; the deferred Herdr-specificity decision resolved as a reject.",
+      "notes": "Carried to sighting 3 as borderline, then rejected 2026-09-08 on the Herdr-specific bar. Opened this run: CCGram is a Telegram bridge that sits on top of a terminal multiplexer and names three interchangeable backends — tmux, Herdr, and agterm — so Herdr is a backend rather than the purpose. The Herdr integration is genuinely deep (socket protocols 14-20, agent.list as the sole identity source, opaque herdr-session-v1 targets, `herdr integration install`), which is why it survived two sightings, but the project would be exactly as useful with Herdr removed. 262 stars, MIT, pushed 2026-09-05 — it fails on specificity alone, not traction. Rejected alternative: listing it in Phone and mobile, which the four Herdr-only clients already cover. Re-open only if it becomes Herdr-first."
     },
     {
       "id": "github-com-qu8n-herdr-automatic-rename",
       "url": "https://github.com/qu8n/herdr-automatic-rename",
       "title": "herdr-automatic-rename",
       "section": "Extras",
-      "status": "probation",
+      "status": "listed",
       "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 50,
+        "stars": 74,
         "license": "MIT",
-        "last_push": "2026-08-24",
+        "last_push": "2026-09-04",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Renames Herdr tabs from the pane's foreground process (tmux automatic-rename style) and adds 1-9 jump keys. Requires Herdr 0.7.1+. Different mechanism from the listed sh1ma/herdr-auto-title, which names tabs from agent conversations."
+      "notes": "Sighting 3 of 3, listed. Renames Herdr tabs from the pane's foreground process (tmux automatic-rename style) and adds 1-9 jump keys. Requires Herdr 0.7.1+. Different mechanism from the listed sh1ma/herdr-auto-title, which names tabs from agent conversations."
     },
     {
       "id": "github-com-jillesme-pi-herdr-squad",
       "url": "https://github.com/jillesme/pi-herdr-squad",
       "title": "pi-herdr-squad",
       "section": "Extras",
-      "status": "probation",
+      "status": "listed",
       "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": 26,
         "license": "MIT",
         "last_push": "2026-08-16",
         "kind": "github",
-        "method": "GitHub API 2026-08-29; repository page read"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Pi package (pi install npm:pi-herdr-squad) that runs read-only Herdr investigation squads; requires a Pi session in a Herdr-managed pane (HERDR_ENV=1)."
+      "notes": "Sighting 3 of 3, listed. Pi package (pi install npm:pi-herdr-squad) that runs read-only Herdr investigation squads; requires a Pi session in a Herdr-managed pane (HERDR_ENV=1)."
     },
     {
       "id": "flaviocopes-com-herdr",
       "url": "https://flaviocopes.com/herdr/",
       "title": "A deep dive into Herdr",
       "section": "Articles",
-      "status": "probation",
+      "status": "listed",
       "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": null,
         "license": null,
         "last_push": null,
         "kind": "web",
-        "method": "page read 2026-08-17"
+        "method": "Fetched 2026-09-08, HTTP 200"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Published 2026-08-10. First-hand: names the repositories he runs it on, his tab layout (agents/dev/checks/deploy), a deliberately minimal config, and real limits found in use (parallel pushes blocking a Cloudflare Pages build queue)."
+      "notes": "Sighting 3 of 3, listed. Published 2026-08-10. First-hand: names the repositories he runs it on, his tab layout (agents/dev/checks/deploy), a deliberately minimal config, and real limits found in use (parallel pushes blocking a Cloudflare Pages build queue)."
     },
     {
       "id": "blog-debedb-com-2026-07-26-herdr-and-cmux-two-shapes-of-the-same-agent-multiplexer",
       "url": "https://blog.debedb.com/2026/07/26/herdr-and-cmux-two-shapes-of-the-same-agent-multiplexer/",
       "title": "herdr and cmux: two shapes of the same agent multiplexer",
       "section": "Articles",
-      "status": "probation",
+      "status": "listed",
       "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": null,
         "license": null,
         "last_push": null,
         "kind": "web",
-        "method": "page read 2026-08-17"
+        "method": "Fetched 2026-09-08, HTTP 200"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Published 2026-07-26. Substantive comparison with named Herdr limitations and a stated review date of 2027-01. Caveat to weigh at sighting 3: the author says outright he has not run Herdr in anger, so it is stronger on cmux than on Herdr."
+      "notes": "Sighting 3 of 3, listed. Published 2026-07-26. Substantive comparison with named Herdr limitations and a stated review date of 2027-01. Caveat to weigh at sighting 3: the author says outright he has not run Herdr in anger, so it is stronger on cmux than on Herdr."
     },
     {
       "id": "news-ycombinator-com-item?id=48756578",
       "url": "https://news.ycombinator.com/item?id=48756578",
       "title": "Herdr: One terminal to rule them all",
       "section": "Discussion",
-      "status": "probation",
+      "status": "listed",
       "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": null,
         "license": null,
         "last_push": null,
         "kind": "hn",
-        "method": "HN Algolia API + thread read 2026-08-17"
+        "method": "HN Algolia API 2026-09-08",
+        "points": 404,
+        "comments": 178
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. 404 points, 178 comments, 2026-07-02 \u2014 more traction than the listed 48714802 thread (166/110). Would give Discussion a second entry."
+      "notes": "Sighting 3 of 3, listed. 404 points, 178 comments, 2026-07-02 — more traction than the listed 48714802 thread (166/110). Would give Discussion a second entry."
     },
     {
       "id": "news-ycombinator-com-item?id=49201003",
       "url": "https://news.ycombinator.com/item?id=49201003",
       "title": "Herdr is joining Y Combinator. The runtime stays open",
       "section": "Discussion",
-      "status": "probation",
+      "status": "listed",
       "first_seen": "2026-08-17",
-      "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": null,
         "license": null,
         "last_push": null,
         "kind": "hn",
-        "method": "HN Algolia API + thread read 2026-08-17"
+        "method": "HN Algolia API 2026-09-08",
+        "points": 281,
+        "comments": 189
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. 281 points, 189 comments, 2026-08-06. The thread behind the YC item in Trending; keep the two separate \u2014 this is discussion, that is news."
+      "notes": "Sighting 3 of 3, listed. 281 points, 189 comments, 2026-08-06. The thread behind the YC item in Trending; keep the two separate — this is discussion, that is news."
     },
     {
       "id": "github-com-alvinunreal-oh-my-opencode-slim",
@@ -1625,322 +1660,322 @@
       "url": "https://github.com/joelhooks/pi-bellwether",
       "title": "pi-bellwether",
       "section": "Extras",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 69,
+        "stars": 70,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-06",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Re-promoted from rejected: MIT license appeared since 2026-08-17 (was unlicensed at 66 stars). Pi package for managing Herdr agents, panes, and runtime sessions from Pi."
+      "notes": "Sighting 2 of 3. Re-promoted from rejected: MIT license appeared since 2026-08-17 (was unlicensed at 66 stars). Pi package for managing Herdr agents, panes, and runtime sessions from Pi."
     },
     {
       "id": "github-com-ChmaraX-herdr-nvim",
       "url": "https://github.com/ChmaraX/herdr-nvim",
       "title": "herdr-nvim",
       "section": "Editor integration",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 90,
+        "stars": 146,
         "license": "MIT",
-        "last_push": "2026-08-26",
+        "last_push": "2026-09-03",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Re-promoted from rejected: MIT license appeared and stars crossed the 25 bar (was 20\u2605/unlicensed on 2026-08-17, surfaced on HN 2026-08-14). Keeps Neovim fully integrated into the active Herdr workspace."
+      "notes": "Sighting 2 of 3. Re-promoted from rejected: MIT license appeared and stars crossed the 25 bar (was 20★/unlicensed on 2026-08-17, surfaced on HN 2026-08-14). Keeps Neovim fully integrated into the active Herdr workspace."
     },
     {
       "id": "github-com-Crokily-herdr-lazygit",
       "url": "https://github.com/Crokily/herdr-lazygit",
       "title": "herdr-lazygit",
       "section": "Git and worktrees",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 25,
+        "stars": 30,
         "license": "MIT",
         "last_push": "2026-07-17",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Runs lazygit in a Herdr sidebar pane with AI-generated commit messages. Exactly at the star bar \u2014 watch for it dropping below 25 before sighting 3."
+      "notes": "Sighting 2 of 3. Runs lazygit in a Herdr sidebar pane with AI-generated commit messages. Exactly at the star bar — watch for it dropping below 25 before sighting 3."
     },
     {
       "id": "github-com-ImArtisann-zed-herdr",
       "url": "https://github.com/ImArtisann/zed-herdr",
       "title": "zed-herdr",
       "section": "Editor integration",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 25,
+        "stars": 27,
         "license": "MIT",
         "last_push": "2026-08-17",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Keeps the active Zed session in sync with the active Herdr workspace. Exactly at the star bar."
+      "notes": "Sighting 2 of 3. Keeps the active Zed session in sync with the active Herdr workspace. Exactly at the star bar."
     },
     {
       "id": "github-com-JonasBaeumer-herdr-file-annotator",
       "url": "https://github.com/JonasBaeumer/herdr-file-annotator",
       "title": "herdr-file-annotator",
       "section": "Extras",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 37,
+        "stars": 53,
         "license": "MIT",
-        "last_push": "2026-08-26",
+        "last_push": "2026-09-04",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Herdr plugin aimed at keeping agentic development connected to the actual codebase; description is vague, worth a closer read before sighting 3."
+      "notes": "Sighting 2 of 3. Herdr plugin aimed at keeping agentic development connected to the actual codebase; description is vague, worth a closer read before sighting 3."
     },
     {
       "id": "github-com-ZingerLittleBee-Heeler",
       "url": "https://github.com/ZingerLittleBee/Heeler",
       "title": "Heeler",
-      "section": "Remote and mobile",
-      "status": "candidate",
+      "section": "Phone and mobile",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 148,
-        "license": "AGPL-3.0",
-        "last_push": "2026-08-27",
+        "stars": 263,
+        "license": "Apache-2.0",
+        "last_push": "2026-09-07",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Native iOS console for Herdr over SSH with a libghostty terminal, QR pairing, and push notifications. AGPL-3.0 \u2014 note the copyleft. Remote and mobile is already crowded (4 listed, several other candidates); this raises section-cap pressure."
+      "notes": "Sighting 2 of 3. Native iOS console for Herdr over SSH with a libghostty terminal, QR pairing, and push notifications. AGPL-3.0 — note the copyleft. Remote and mobile is already crowded (4 listed, several other candidates); this raises section-cap pressure."
     },
     {
       "id": "github-com-aemrebarut-herdr-dagr",
       "url": "https://github.com/aemrebarut/herdr-dagr",
       "title": "herdr-dagr",
       "section": "Extras",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 45,
+        "stars": 65,
         "license": "Apache-2.0",
         "last_push": "2026-08-23",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Renders an agent swarm as a live orchestration DAG \u2014 attempts, review gates, evidence \u2014 in a Herdr split pane."
+      "notes": "Sighting 2 of 3. Renders an agent swarm as a live orchestration DAG — attempts, review gates, evidence — in a Herdr split pane."
     },
     {
       "id": "github-com-aigorahub-herdr-lantern",
       "url": "https://github.com/aigorahub/herdr-lantern",
       "title": "herdr-lantern",
       "section": "Extras",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 47,
+        "stars": 62,
         "license": "MIT",
-        "last_push": "2026-08-26",
+        "last_push": "2026-09-06",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Attention-routing Herdr plugin: surfaces which agent in the herd needs you and what it's working toward."
+      "notes": "Sighting 2 of 3. Attention-routing Herdr plugin: surfaces which agent in the herd needs you and what it's working toward."
     },
     {
       "id": "github-com-jeffarese-herdr-bar",
       "url": "https://github.com/jeffarese/herdr-bar",
       "title": "herdr-bar",
       "section": "Navigation and layout",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 28,
+        "stars": 37,
         "license": "MIT",
-        "last_push": "2026-08-07",
+        "last_push": "2026-08-31",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Cmd+K-style fuzzy jump to any tab, agent, repo, or branch; Python stdlib only, no dependencies. Navigation and layout already lists 5 entries after this run's removal \u2014 one more listing would approach the section's practical size."
+      "notes": "Sighting 2 of 3. Cmd+K-style fuzzy jump to any tab, agent, repo, or branch; Python stdlib only, no dependencies. Navigation and layout already lists 5 entries after this run's removal — one more listing would approach the section's practical size."
     },
     {
       "id": "github-com-levi-qiao-herdr-agent-quota",
       "url": "https://github.com/levi-qiao/herdr-agent-quota",
       "title": "herdr-agent-quota",
       "section": "Extras",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 30,
+        "stars": 74,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Live quota/usage monitoring sidebar for Claude, Codex, Grok, and Agy inside Herdr."
+      "notes": "Sighting 2 of 3. Live quota/usage monitoring sidebar for Claude, Codex, Grok, and Agy inside Herdr."
     },
     {
       "id": "github-com-plannotator-herdr-annotate",
       "url": "https://github.com/plannotator/herdr-annotate",
       "title": "herdr-annotate",
       "section": "Reviewing and reading code",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 152,
+        "stars": 395,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-07",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Annotate terminal text and agent replies in Herdr and send the feedback straight back to the agent \u2014 same category as herdr-reviewr and herdr-hunk-diff. Surfaced on Show HN 2026-08-26."
+      "notes": "Sighting 2 of 3. Annotate terminal text and agent replies in Herdr and send the feedback straight back to the agent — same category as herdr-reviewr and herdr-hunk-diff. Surfaced on Show HN 2026-08-26."
     },
     {
       "id": "github-com-powerfooI-herdr-studio",
       "url": "https://github.com/powerfooI/herdr-studio",
       "title": "herdr-studio",
-      "section": "Remote and mobile",
-      "status": "candidate",
+      "section": "Phone and mobile",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 25,
+        "stars": 46,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. Web client for Herdr with browser terminals, workspace/worktree management, and diff viewing; mobile-friendly. Exactly at the star bar, and overlaps candidates kcosr/herdr-web and benkraus/herdr-mobile \u2014 compare all three before any of them reaches sighting 3."
+      "notes": "Sighting 2 of 3. Web client for Herdr with browser terminals, workspace/worktree management, and diff viewing; mobile-friendly. Exactly at the star bar, and overlaps candidates kcosr/herdr-web and benkraus/herdr-mobile — compare all three before any of them reaches sighting 3."
     },
     {
       "id": "github-com-zenbu-labs-terminal-code",
       "url": "https://github.com/zenbu-labs/terminal-code",
       "title": "terminal-code",
       "section": "Browsers and viewers",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 1737,
+        "stars": 1910,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-02",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3. VS Code running in the terminal, from the same org as the listed terminal-browser, with the identical pattern: a dedicated herdr-plugin subdirectory (confirmed \u2014 README.md, herdr-plugin.toml, open-split.sh) opening it in a Herdr split. Works with any Kitty-graphics-capable terminal, but the Herdr integration is genuine and manifest-verified, matching the precedent set by terminal-browser."
+      "notes": "Sighting 2 of 3. VS Code running in the terminal, from the same org as the listed terminal-browser, with the identical pattern: a dedicated herdr-plugin subdirectory (confirmed — README.md, herdr-plugin.toml, open-split.sh) opening it in a Herdr split. Works with any Kitty-graphics-capable terminal, but the Herdr integration is genuine and manifest-verified, matching the precedent set by terminal-browser."
     },
     {
       "id": "github-com-osolmaz-pi-workflows",
       "url": "https://github.com/osolmaz/pi-workflows",
       "title": "pi-workflows",
       "section": "Extras",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": null,
-      "last_verified": "2026-08-29",
-      "last_ok": "2026-08-29",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 220,
+        "stars": 267,
         "license": "MIT",
-        "last_push": "2026-08-28",
+        "last_push": "2026-09-08",
         "kind": "github",
-        "method": "GitHub API 2026-08-29"
+        "method": "GitHub API 2026-09-08"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Sighting 1 of 3, borderline. Workflow engine for the Pi coding agent with a standalone Rust TUI viewer and an npm viewer \u2014 Herdr is one of several ways to view it, not a requirement. It does ship a root-level herdr-plugin.toml using Herdr's public pane APIs and is listed in the marketplace, which is why it clears the record bar at all; decide at sighting 3 whether that's enough given the tool's primary identity is not Herdr-specific (same question that sank oh-my-opencode-slim)."
+      "notes": "Sighting 2 of 3, borderline. Workflow engine for the Pi coding agent with a standalone Rust TUI viewer and an npm viewer — Herdr is one of several ways to view it, not a requirement. It does ship a root-level herdr-plugin.toml using Herdr's public pane APIs and is listed in the marketplace, which is why it clears the record bar at all; decide at sighting 3 whether that's enough given the tool's primary identity is not Herdr-specific (same question that sank oh-my-opencode-slim)."
     },
     {
       "id": "github-com-missuo-herdrm",
@@ -1963,7 +1998,7 @@
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Native macOS console for Herdr's coding agents and their live terminals across devices \u2014 clearly Herdr-specific and 639 stars, but ships no license. High-priority recheck: list the moment one appears."
+      "notes": "Native macOS console for Herdr's coding agents and their live terminals across devices — clearly Herdr-specific and 639 stars, but ships no license. High-priority recheck: list the moment one appears."
     },
     {
       "id": "github-com-ragamo-herdr-flock",
@@ -1986,7 +2021,7 @@
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Pixel-art farm visualization of running agents, a genuine Herdr plugin. Below the star bar at the 2026-08-12 seed audit (20\u2605); now above it (29\u2605) but still unlicensed."
+      "notes": "Pixel-art farm visualization of running agents, a genuine Herdr plugin. Below the star bar at the 2026-08-12 seed audit (20★); now above it (29★) but still unlicensed."
     },
     {
       "id": "github-com-schacon-micro-manager",
@@ -2009,7 +2044,7 @@
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Mac bridge between the Creator Micro 2 hardware macro pad and Herdr \u2014 Herdr-specific, just above the star bar, but ships no license and carries no topics."
+      "notes": "Mac bridge between the Creator Micro 2 hardware macro pad and Herdr — Herdr-specific, just above the star bar, but ships no license and carries no topics."
     },
     {
       "id": "github-com-iamcheyan-dotfiles",
@@ -2078,7 +2113,7 @@
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Claude Code multi-account manager with an optional herdr-plugin folder for a popup and per-pane account tag. Herdr integration is a supplementary feature, not the tool's identity \u2014 same reasoning that excluded oh-my-opencode-slim and pi-subagents."
+      "notes": "Claude Code multi-account manager with an optional herdr-plugin folder for a popup and per-pane account tag. Herdr integration is a supplementary feature, not the tool's identity — same reasoning that excluded oh-my-opencode-slim and pi-subagents."
     },
     {
       "id": "github-com-yigitkonur-native-shortcuts-herd",
@@ -2101,7 +2136,7 @@
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Makes Ghostty + Herdr navigation feel native on macOS; licensed and at the star bar, but stale \u2014 102 days since the last push, well past the 60-day liveness limit. Re-check if it becomes active again."
+      "notes": "Makes Ghostty + Herdr navigation feel native on macOS; licensed and at the star bar, but stale — 102 days since the last push, well past the 60-day liveness limit. Re-check if it becomes active again."
     },
     {
       "id": "codeberg-org-teepark-panto-herdr",
@@ -2148,18 +2183,437 @@
       "exempt_from_probation": false,
       "last_change": null,
       "notes": "No description; appears to be a personal Herdr configuration repository rather than a distributable deliverable. 0 stars, below the Codeberg bar either way."
+    },
+    {
+      "id": "github-com-kosumic-whip",
+      "url": "https://github.com/kosumic/whip",
+      "title": "whip",
+      "section": "Phone and mobile",
+      "status": "listed",
+      "first_seen": "2026-08-17",
+      "listed_since": "2026-09-08",
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 3,
+      "evidence": {
+        "stars": 62,
+        "license": "AGPL-3.0",
+        "last_push": "2026-09-08",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08 (followed the 301 from KaminariOS/whip)"
+      },
+      "exempt_from_probation": false,
+      "last_change": "2026-09-08: repository renamed KaminariOS/whip -> kosumic/whip (HTTP 301). URL updated; not a strike.",
+      "notes": "Sighting 3 of 3, listed. Android app for supervising Herdr over SSH/Tailscale; falls back to a plain SSH shell when Herdr is unavailable. AGPL-3.0 — licensed, but note the copyleft in any entry."
+    },
+    {
+      "id": "github-com-kryptamine-herdr-auto-title",
+      "url": "https://github.com/kryptamine/herdr-auto-title",
+      "title": "herdr-auto-title",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 84,
+        "license": "MIT",
+        "last_push": "2026-09-08",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08; herdr-plugin.toml present at repository root (HTTP 200)"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Tab titles that follow the work in each tab. Duplicates the function of the listed sh1ma/herdr-auto-title (53 stars, pushed 2026-08-13) at 84 stars and a same-day push — a replace-not-add decision for a future audit if it keeps qualifying, per the rule against two plugins doing the same job."
+    },
+    {
+      "id": "github-com-dmmulroy-herdr-ts-sdk",
+      "url": "https://github.com/dmmulroy/herdr-ts-sdk",
+      "title": "herdr-ts-sdk",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 41,
+        "license": "MIT",
+        "last_push": "2026-09-06",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Effect-native TypeScript SDK for Herdr's local Unix-socket API; every operation typed as an Effect. No plugin manifest and none expected — it is a client library, Herdr-specific throughout (111 mentions of Herdr in the README, no other runtime targeted)."
+    },
+    {
+      "id": "github-com-senna-lang-herdr-agent-usage",
+      "url": "https://github.com/senna-lang/herdr-agent-usage",
+      "title": "herdr-agent-usage",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 31,
+        "license": "MIT",
+        "last_push": "2026-09-06",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08; herdr-plugin.toml present at repository root (HTTP 200)"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Context meters and provider rate limits for agents running in Herdr. Overlaps the levi-qiao/herdr-agent-quota candidate (74 stars, also at sighting 2) — if both survive probation, only one should be listed."
+    },
+    {
+      "id": "github-com-ntindle-herdr-resurrect",
+      "url": "https://github.com/ntindle/herdr-resurrect",
+      "title": "herdr-resurrect",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 28,
+        "license": "MIT",
+        "last_push": "2026-08-24",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08; herdr-plugin.toml present at repository root (HTTP 200)"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. tmux-resurrect for Herdr: snapshots workspaces, tabs, panes, cwd and running programs, and restores them."
+    },
+    {
+      "id": "github-com-jankeesvw-omarchy-herdr",
+      "url": "https://github.com/jankeesvw/omarchy-herdr",
+      "title": "omarchy-herdr",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 28,
+        "license": "MIT",
+        "last_push": "2026-09-08",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Bar widget for Omarchy showing how many Herdr servers are running and which agents inside them need attention, colour-coded off Herdr's own agent states. No manifest — it is a desktop-bar companion, not a pane plugin."
+    },
+    {
+      "id": "github-com-timvdhoorn-stream-deck-herdr-plugin",
+      "url": "https://github.com/timvdhoorn/stream-deck-herdr-plugin",
+      "title": "stream-deck-herdr-plugin",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 27,
+        "license": "MIT",
+        "last_push": "2026-07-23",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Elgato Stream Deck plugin mirroring Herdr agent status onto physical keys; press runs `herdr agent focus`, refreshes on Herdr socket events. No herdr-plugin.toml because it is a Stream Deck plugin, not a Herdr pane plugin. Requires Herdr 0.7.0+."
+    },
+    {
+      "id": "github-com-Unayung-herdr-watch",
+      "url": "https://github.com/Unayung/herdr-watch",
+      "title": "herdr-watch",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 27,
+        "license": "MIT",
+        "last_push": "2026-08-14",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08; herdr-plugin.toml present at repository root (HTTP 200)"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Agent status from Herdr on an Apple Watch."
+    },
+    {
+      "id": "github-com-speardragon-herdr-plugin-manager",
+      "url": "https://github.com/speardragon/herdr-plugin-manager",
+      "title": "herdr-plugin-manager",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 26,
+        "license": "MIT",
+        "last_push": "2026-09-04",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08; herdr-plugin.toml present at repository root (HTTP 200)"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Popup for managing Herdr plugins — install, update, enable/disable, uninstall, browse."
+    },
+    {
+      "id": "github-com-riba2534-herdrx",
+      "url": "https://github.com/riba2534/herdrx",
+      "title": "herdrx",
+      "section": "Phone and mobile",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 26,
+        "license": "MIT",
+        "last_push": "2026-09-08",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Self-hosted multi-user remote Herdr workbench: SSH/Tailcat, multi-host splits, mobile client, signed CLI updates. README and UI are primarily Chinese. Adds to an already crowded remote/mobile pipeline."
+    },
+    {
+      "id": "github-com-oscabriel-pi-herdr-btw",
+      "url": "https://github.com/oscabriel/pi-herdr-btw",
+      "title": "pi-herdr-btw",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 25,
+        "license": "MIT",
+        "last_push": "2026-09-02",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Pi extension modelled on Claude Code's /btw: opens a tool-enabled side conversation in a focused Herdr pane via `herdr pane split` and `herdr agent start --kind pi --pane`, leaving the parent transcript unchanged. Requires Herdr 0.7.4+."
+    },
+    {
+      "id": "github-com-arronKler-pairfob",
+      "url": "https://github.com/arronKler/pairfob",
+      "title": "pairfob",
+      "section": "Phone and mobile",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 25,
+        "license": "Apache-2.0",
+        "last_push": "2026-09-08",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08; herdr-plugin.toml present at repository root (HTTP 200)"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Phone surface for Herdr — agents keep running on the computer while the phone drives them. Another entrant in the crowded remote/mobile pipeline."
+    },
+    {
+      "id": "github-com-Tyru5-herdr-floax",
+      "url": "https://github.com/Tyru5/herdr-floax",
+      "title": "herdr-floax",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 25,
+        "license": "MIT",
+        "last_push": "2026-07-26",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08; herdr-plugin.toml present at repository root (HTTP 200)"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Floating scratch shell for Herdr in the style of tmux-floax: a toggleable popup, one per workspace. Pushed 2026-07-26, 44 days — closest to the liveness bar of anything admitted this run."
+    },
+    {
+      "id": "github-com-eugenioenko-ttt",
+      "url": "https://github.com/eugenioenko/ttt",
+      "title": "ttt",
+      "section": "Editor integration",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 240,
+        "license": "MIT",
+        "last_push": "2026-09-05",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3, borderline. Terminal text editor (a VS Code/Zed alternative) that ships a Herdr plugin subdirectory — `herdr plugin install eugenioenko/ttt/herdr-plugin` — to open it as a pane in the active worktree. Herdr is one integration among many rather than the project's purpose, so it sits near the 'general terminal tool that merely mentions Herdr' line; recorded as a candidate on the precedent of the listed zenbu-labs/terminal-browser, which has the same shape. Three weeks of probation to decide."
+    },
+    {
+      "id": "github-com-oborchers-proqi",
+      "url": "https://github.com/oborchers/proqi",
+      "title": "proqi",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": "2026-09-08",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 25,
+        "license": "MIT",
+        "last_push": "2026-09-08",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3, borderline. Terminal-native prompt composer for people running several coding agents; carries a 'works best with Herdr' badge and a native-submission path that only trusts verified Herdr panes, never arbitrary terminals. Herdr is one integration among several, the same reservation recorded against osolmaz/pi-workflows."
+    },
+    {
+      "id": "github-com-tdi-herdr-worktree-setup",
+      "url": "https://github.com/tdi/herdr-worktree-setup",
+      "title": "herdr-worktree-setup",
+      "section": "Git and worktrees",
+      "status": "rejected",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": null,
+      "strikes": 0,
+      "sightings": 0,
+      "evidence": {
+        "stars": 25,
+        "license": null,
+        "last_push": "2026-07-20",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08; herdr-plugin.toml present at repository root (HTTP 200)"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Rejected this run: no license. Genuinely Herdr-specific (runs per-project setup steps when a worktree is created) and clears the star bar at 25, but the bar requires a license for anything installable. Re-check when one appears."
+    },
+    {
+      "id": "github-com-apemost-dotfiles",
+      "url": "https://github.com/apemost/dotfiles",
+      "title": "dotfiles",
+      "section": "Extras",
+      "status": "rejected",
+      "first_seen": "2026-09-08",
+      "listed_since": null,
+      "last_verified": "2026-09-08",
+      "last_ok": null,
+      "strikes": 0,
+      "sightings": 0,
+      "evidence": {
+        "stars": 25,
+        "license": "MIT",
+        "last_push": "2026-09-08",
+        "kind": "github",
+        "method": "GitHub API 2026-09-08"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Rejected this run: not Herdr-specific. Personal dotfiles repository carrying the `herdr` topic; the README does not mention Herdr once. Clears the star bar at 25 and is actively pushed, which is why it surfaces in the sweep — the topic tag is the only connection."
     }
   ],
-  "trending_policy": "Trending items are exempt from the probation rule and are NOT sources: they are dated, sourced news items dropped after ~8 weeks or when superseded. A trending item never graduates into `sources` automatically \u2014 an entry must clear the normal bar on its own.",
+  "trending_policy": "Trending items are exempt from the probation rule and are NOT sources: they are dated, sourced news items dropped after ~8 weeks or when superseded. A trending item never graduates into `sources` automatically — an entry must clear the normal bar on its own.",
   "trending": [
+    {
+      "date": "2026-09-07",
+      "kind": "breaking",
+      "expires": "2026-11-15",
+      "text": "v0.9.0 removes the single-process `--no-session` mode: every TUI launch now attaches to a background server, and `server stop` is what ends a session. Closing a primary workspace that has open worktree workspaces now needs explicit group intent (`workspace close --group`), and new lifecycle event subscriptions start with live events instead of replaying retained history — API and plugin clients must subscribe before taking their initial snapshot or they will miss changes.",
+      "sources": [
+        "https://github.com/herdrdev/herdr/releases/tag/v0.9.0"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "kind": "release",
+      "expires": "2026-11-03",
+      "text": "v0.9.0: local and saved SSH machines now live in one window with a combined agent list and automatic reconnects (`herdr machine`), multiple clients can view different workspaces and tabs independently, the terminal UI moved into each client to cut redraw work in busy multi-client sessions, and Kitty graphics are on by default in compatible terminals.",
+      "sources": [
+        "https://github.com/herdrdev/herdr/releases/tag/v0.9.0",
+        "https://herdr.dev/blog/"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "kind": "company",
+      "expires": "2026-11-03",
+      "text": "Blog: 'Connecting the machines' — the 0.9 multi-machine client, why it took longer than expected, and Herdr Cloud named as what comes next.",
+      "sources": [
+        "https://herdr.dev/blog/"
+      ]
+    },
     {
       "date": "2026-08-06",
       "kind": "company",
       "expires": "2026-10-01",
       "text": "Herdr joined Y Combinator (Fall 2026); runtime stays Apache-2.0. One-person team; YC page cites 25k stars and 340k downloads in four months.",
       "sources": [
-        "https://herdr.dev/blog/",
-        "https://www.ycombinator.com/companies/herdr"
+        "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+        "https://news.ycombinator.com/item?id=49201003"
       ]
     },
     {
@@ -2175,28 +2629,18 @@
       "date": "2026-08-03",
       "kind": "engineering",
       "expires": "2026-10-01",
-      "text": "Blog: 'Ten agents, three clients, 95% less CPU' \u2014 rendering and status-indicator work for running a fleet.",
+      "text": "Blog: 'Ten agents, three clients, 95% less CPU' — rendering and status-indicator work for running a fleet.",
       "sources": [
         "https://herdr.dev/blog/"
       ]
     },
     {
-      "date": "2026-07-21",
-      "kind": "breaking",
-      "expires": "2026-09-15",
-      "text": "v0.7.5: installed and linked plugins are now global to the user rather than per session; plugins installed in a named session on 0.7.3 need reinstalling.",
-      "sources": [
-        "https://github.com/herdrdev/herdr/releases/tag/v0.7.5"
-      ]
-    },
-    {
       "date": "2026-06-30",
       "kind": "growth",
-      "expires": "2026-09-15",
-      "text": "#1 on GitHub Trending; ~15k stars in early July, 33,189 on 2026-08-29. The plugin marketplace held 884 repositories on the same date, up from 684 twelve days earlier.",
+      "expires": "2026-11-03",
+      "text": "36,426 stars on 2026-09-08, up from 33,189 ten days earlier and ~15k in early July, when it hit #1 on GitHub Trending. The plugin marketplace held 1,033 repositories on the same date, up from 884; 60 of them clear this list's 25-star bar, up from 50.",
       "sources": [
-        "https://github.com/herdrdev/herdr",
-        "https://herdr.dev/plugins/"
+        "https://github.com/herdrdev/herdr"
       ]
     },
     {
