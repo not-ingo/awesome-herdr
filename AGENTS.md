@@ -62,12 +62,15 @@ path — a list that reshuffles weekly is worthless.
 
 ## Publication boundary
 
-- A completed audit is committed and pushed to this repository's `main` — that
-  is the one publication step you own, and Phase 7 of the audit skill covers
-  it. Nothing else: no pull requests, no submissions to other awesome lists, no
-  posts, no comments or issues on the sources you find, without explicit human
-  approval of that specific action.
-- Work in progress stays local. Push finished runs, never partial ones.
+- A completed audit is committed to a branch of this repository, opened as a
+  pull request into its own `main`, and merged there — that is the one
+  publication step you own, and Phase 7 of the audit skill covers it. Nothing
+  else: no pull requests against anyone else's repository, no submissions to
+  other awesome lists, no posts, no comments or issues on the sources you
+  find, without explicit human approval of that specific action.
+- Work in progress stays local. Publish finished runs, never partial ones. An
+  open pull request is a fine place for a run to wait for a human; an
+  uncommitted working tree is not.
 - Do not modify the user's Herdr configuration (`~/.config/herdr/config.toml`),
   installed plugins, or running session.
 - Use the shared Factory task workflow for every assigned run: inspect it,

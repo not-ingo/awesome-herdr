@@ -364,11 +364,15 @@ sections to keep it alive.
    license appearing promotes them straight into Phase 3.
 
    `"changes": "none"` is the product, not an admission of a wasted run.
-4. **Commit the run locally.** The audit is not finished while it sits in the
-   working tree — the ledger's value is its history, and an uncommitted run is
-   a run that can be lost or silently overwritten by the next one.
+4. **Commit the run on a branch of its own.** The audit is not finished while
+   it sits in the working tree — the ledger's value is its history, and an
+   uncommitted run is a run that can be lost or silently overwritten by the
+   next one. Branch from an up-to-date `main` so the run is reviewable as one
+   diff:
 
    ```bash
+   git fetch origin
+   git checkout -b audit/YYYY-MM-DD origin/main
    git add README.md data/sources.json
    git commit -m "Weekly audit YYYY-MM-DD: <one-line summary>"
    ```
@@ -376,6 +380,7 @@ sections to keep it alive.
    Rules for the commit:
    - **Only `README.md` and `data/sources.json`.** Never `git add -A`; never
      commit scratch files, and stop to ask if anything else is modified.
+     `.factory/` in particular is untracked on purpose.
    - **Commit even when nothing changed.** A run that verifies 39 entries and
      changes no listing still updates `last_verified`, `last_ok`, and the
      `audits` array. `Weekly audit 2026-08-17: changes none, 39 verified, 12
@@ -384,30 +389,67 @@ sections to keep it alive.
    - **Summarize honestly in the subject line** — the counts, and `changes
      none` when that is the result. The body is the place for admissions,
      retirements, and anything left unverified.
-5. **Push the run to `main`.**
+   - If the working tree turns out to hold an earlier run that was never
+     committed, carry both in this commit and say so in the body. Do not try
+     to split an intermingled diff.
+
+5. **Open a pull request against `main`.**
 
    ```bash
-   git push origin main
+   git push -u origin audit/YYYY-MM-DD
+   gh pr create --base main --head audit/YYYY-MM-DD \
+     --title "Weekly audit YYYY-MM-DD: <one-line summary>" \
+     --body "<the run, written out>"
+   ```
+
+   The pull request is where the run becomes reviewable, so write the body for
+   a human deciding whether to trust it — not a restatement of the diff:
+   - **What changed in the listing**, and the rule that allowed it: which
+     cohort reached its third sighting, which entry took its third strike,
+     which section split and why. `changes: none` runs say that plainly and
+     stop.
+   - **Trending**, including what was dropped or superseded.
+   - **Gaps, in full.** Every host that returned an error, every page that
+     could not be read, every search not run. This is the section that makes
+     the run auditable; never trim it to look tidier.
+   - **Open questions for a human**, with the date each one has to be settled
+     by. A question the next run will hit again belongs here, not only in the
+     ledger.
+
+6. **Merge the pull request.**
+
+   ```bash
+   gh pr merge --rebase --delete-branch
    ```
 
    The audit's whole point is that a reader can trust the published list, so
    the run is not finished until what they read matches what you verified.
-   Push on every run, including `changes: none` runs — the refreshed
+   Merge on every run, including `changes: none` runs — the refreshed
    `last_verified` dates are the evidence that the list is being maintained.
+   `--rebase` keeps `main` linear and lands the commit message you wrote;
+   squashing would replace it with the pull request body.
 
    The boundary is narrow and stops here:
-   - **This repository's `main`, and nothing else.** No pull requests, no
-     force-push, no other branches, no other remotes.
+   - **This repository, and nothing else.** A pull request from a branch of
+     this repository into its own `main`, merged by you. No force-push, no
+     other remotes, no pull requests against anyone else's repository.
    - **Nothing outward-facing.** Submitting to other awesome lists, posting
      about the list, or commenting on the sources you find still needs
      explicit human approval per the root `AGENTS.md`.
-   - **Never push a dirty or partial run.** Commit first, confirm
+   - **Never publish a dirty or partial run.** Commit first, confirm
      `git status` is clean, and if the audit was cut short — rate limits,
-     entries left unverified — push what you honestly recorded, with the
-     gaps written into the `audits` entry.
-   - If the push is rejected, someone else moved `main`. Pull, rebase, and
-     re-check the reconciliation before pushing again; never force.
-6. Record the run against the Factory task run per the root `AGENTS.md`:
+     entries left unverified — publish what you honestly recorded, with the
+     gaps written into the `audits` entry and the pull request body.
+   - **Do not merge over a red check or a review.** If the pull request has
+     failing checks, or a human has left a comment or a requested change,
+     leave it open, say so in the run report, and let a human close it out.
+   - If the merge is refused because `main` moved, someone else published.
+     Rebase the branch onto the new `main`, re-check the reconciliation, push
+     the branch again, and merge; never force-push `main` itself.
+   - If a run has to stop between step 5 and step 6, an open pull request is
+     an acceptable resting place. An uncommitted working tree is not.
+
+7. Record the run against the Factory task run per the root `AGENTS.md`:
    `run_progress` while working, `run_decision` for every admission,
    retirement, and replacement (with rationale and rejected alternative), then
    `run_complete`.
@@ -420,11 +462,12 @@ sections to keep it alive.
   from a response you actually received this run.
 - **Do not add pages.** No new markdown files, no docs directory, no tutorials.
   Links only.
-- **Publish the list, and nothing else.** Committing and pushing this
-  repository's `main` is part of the run (Phase 7). Everything else is off
-  limits without explicit human approval per the root `AGENTS.md`: no pull
-  requests, no submissions to other awesome lists, no posts about the list, no
-  comments or issues on the sources you find.
+- **Publish the list, and nothing else.** Branching this repository,
+  opening a pull request into its own `main`, and merging it is part of the
+  run (Phase 7). Everything else is off limits without explicit human approval
+  per the root `AGENTS.md`: no pull requests against anyone else's repository,
+  no submissions to other awesome lists, no posts about the list, no comments
+  or issues on the sources you find.
 - **Do not touch anything outside this project directory**, and do not modify
   the user's Herdr configuration or running session.
 - **Report honestly.** "Nothing changed, 39 verified, 1 candidate at sighting 2
