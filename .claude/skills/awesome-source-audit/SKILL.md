@@ -416,10 +416,12 @@ sections to keep it alive.
      by. A question the next run will hit again belongs here, not only in the
      ledger.
 
-6. **Merge the pull request.**
+6. **Merge the pull request**, then delete the branch as a separate step:
 
    ```bash
-   gh pr merge --rebase --delete-branch
+   gh pr merge --rebase
+   gh pr view --json state --jq .state     # expect MERGED
+   git push origin --delete audit/YYYY-MM-DD
    ```
 
    The audit's whole point is that a reader can trust the published list, so
@@ -428,6 +430,18 @@ sections to keep it alive.
    `last_verified` dates are the evidence that the list is being maintained.
    `--rebase` keeps `main` linear and lands the commit message you wrote;
    squashing would replace it with the pull request body.
+
+   **Do not use `--delete-branch`.** On top of deleting the branch it switches
+   the local checkout to the base branch, which fails outright when the run is
+   happening in a git worktree while `main` is checked out somewhere else —
+   `fatal: main is already used by worktree at ...`. Factory runs this audit in
+   a worktree, so that is the normal case, not the exotic one. It failed that
+   way on 2026-09-22.
+
+   The trap is the ordering: that failure happens **after** the remote merge
+   has already succeeded, and `gh` still exits non-zero. Judge the merge by
+   `gh pr view --json state`, never by the exit code, or you will conclude a
+   completed merge failed and try to publish it a second time.
 
    The boundary is narrow and stops here:
    - **This repository, and nothing else.** A pull request from a branch of
