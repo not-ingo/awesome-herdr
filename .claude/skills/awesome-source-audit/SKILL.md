@@ -133,11 +133,14 @@ are careless. Unauthenticated: **60 core requests per hour** and **10 search
 requests per minute**. A full audit needs roughly one core call per listed
 GitHub entry plus the sweep, which does not fit.
 
-Before starting, check what you have, and prefer an authenticated token when
-one exists (`gh auth status`; a token raises the core limit to 5000/hour):
+A token raises the core limit to 5000/hour, and `gh` carries it when one exists
+(`gh auth status` says which). So make **every** GitHub API call through
+`gh api`: a bare `curl` to `api.github.com` goes out unauthenticated even when a
+token is right there, and the first run in the sandbox found itself on 60
+requests an hour that way. Before starting, check what you have:
 
 ```bash
-curl -sS https://api.github.com/rate_limit | jq '.resources.core, .resources.search'
+gh api rate_limit --jq '.resources.core, .resources.search'
 ```
 
 Then spend it deliberately:
@@ -175,12 +178,12 @@ For every entry with `status` of `listed` or `probation`:
    pull fresh metadata:
 
    ```bash
-   curl -sS "https://api.github.com/repos/<owner>/<repo>" \
-     -H "Accept: application/vnd.github+json"
+   gh api "repos/<owner>/<repo>"
    ```
 
    Read `stargazers_count`, `pushed_at`, `archived`, `license.spdx_id`, and any
-   `full_name` change (a rename returns HTTP 301 with the new location).
+   `full_name` change (`gh` follows a rename's redirect, so a `full_name` that
+   differs from the ledger's URL is how a move shows up).
 
 2. Classify the outcome:
    - **OK** — reachable, unchanged in substance. Update `last_verified`,
@@ -211,8 +214,7 @@ worth recording.
    index is unmoderated and sorted by nothing:
 
    ```bash
-   curl -sS "https://api.github.com/search/repositories?q=topic:herdr-plugin+stars:%3E%3D25&sort=stars&order=desc&per_page=60" \
-     -H "Accept: application/vnd.github+json"
+   gh api "search/repositories?q=topic:herdr-plugin+stars:%3E%3D25&sort=stars&order=desc&per_page=60"
    ```
 
    That query returns exactly the population that clears the star bar — review
@@ -226,9 +228,11 @@ worth recording.
    likely directories:
 
    ```bash
-   curl -sS -o /dev/null -w "%{http_code}\n" \
-     "https://api.github.com/repos/<owner>/<repo>/contents/herdr-plugin.toml"
+   gh api "repos/<owner>/<repo>/contents/herdr-plugin.toml" --jq .path
    ```
+
+   It prints the path when the manifest is there; a missing one ends in
+   `gh: Not Found (HTTP 404)`.
 
    A repository can still qualify without a manifest if it is Herdr-specific
    in another way (a script, a companion app) — say so in the entry.
@@ -327,8 +331,7 @@ Work it in this order:
 1. **Check the primary sources every time**:
 
    ```bash
-   curl -sS "https://api.github.com/repos/herdrdev/herdr/releases?per_page=8" \
-     -H "Accept: application/vnd.github+json"
+   gh api "repos/herdrdev/herdr/releases?per_page=8"
    ```
 
    plus the official blog (`https://herdr.dev/blog/`). Read release bodies, not
