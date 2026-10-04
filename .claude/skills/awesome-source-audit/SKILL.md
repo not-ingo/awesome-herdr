@@ -24,6 +24,27 @@ changes is a successful audit.** Do not manufacture activity.
 All paths below are relative to the project root
 (`projects/awesome-herdr/`).
 
+## Unattended
+
+This audit runs as a scheduled Factory task, usually inside a sandbox, and
+nobody is watching the terminal. Anything that waits for an answer waits until
+the run times out and is thrown away — the 2026-10-04 run hung that way on a
+prompt nobody could see. So:
+
+- **Do the work in this session, one phase after another.** Do not start a
+  dynamic workflow and do not fan the phases out to subagents: a workflow
+  stops at a confirmation prompt before it runs, and the rate limits below
+  reward a steady single pass anyway.
+- **Never wait on a prompt.** If a tool, a command, or a permission check asks
+  for a confirmation you cannot give yourself, that path is unavailable this
+  run. Do not retry it; record it as a gap in the audit and the pull request,
+  and carry on with the rest.
+- **Never stop to ask.** Where a decision would want a human, take the
+  conservative choice this skill describes, write the question into the pull
+  request's open questions with the date it has to be settled by, and finish
+  the run. If something genuinely prevents publishing, end the run `blocked`
+  with the reason — a blocked run is a report; a waiting one is silence.
+
 ## State
 
 | File | Role |
@@ -379,8 +400,10 @@ sections to keep it alive.
 
    Rules for the commit:
    - **Only `README.md` and `data/sources.json`.** Never `git add -A`; never
-     commit scratch files, and stop to ask if anything else is modified.
-     `.factory/` in particular is untracked on purpose.
+     commit scratch files. If anything else in the tree is modified, deleted
+     or untracked, leave it exactly as it is — do not commit, revert or delete
+     it — and name it in the pull request body. Do not stop to ask (see
+     Unattended). `.factory/` in particular is untracked on purpose.
    - **Commit even when nothing changed.** A run that verifies 39 entries and
      changes no listing still updates `last_verified`, `last_ok`, and the
      `audits` array. `Weekly audit 2026-08-17: changes none, 39 verified, 12
@@ -451,7 +474,9 @@ sections to keep it alive.
      about the list, or commenting on the sources you find still needs
      explicit human approval per the root `AGENTS.md`.
    - **Never publish a dirty or partial run.** Commit first, confirm
-     `git status` is clean, and if the audit was cut short — rate limits,
+     `git status` shows nothing of this run left uncommitted (changes that
+     were in the tree before the run stay as they are, named in the pull
+     request body), and if the audit was cut short — rate limits,
      entries left unverified — publish what you honestly recorded, with the
      gaps written into the `audits` entry and the pull request body.
    - **Do not merge over a red check or a review.** If the pull request has
