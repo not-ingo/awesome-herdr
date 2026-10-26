@@ -2,15 +2,15 @@
 
 > Curated links for [Herdr](https://herdr.dev) — the terminal workspace manager for AI coding agents.
 
-Herdr's plugin marketplace is unmoderated: any repository tagged `herdr-plugin` appears in it, and there were **1,915** of them when this list was last audited. This list is the opposite — a short set of things with a track record.
+Herdr's plugin marketplace is unmoderated: any repository tagged `herdr-plugin` appears in it, and there were **1,924** of them when this list was last audited. This list is the opposite — a short set of things with a track record.
 
 **Inclusion bar:** a license, a push within the last 60 days, no archive notice, and a track record — **25+ stars on GitHub, or 10+ on GitLab or Codeberg**, where the same number means considerably more. Official Herdr resources are exempt from the star rule. Articles need to be substantive first-hand accounts, not SEO filler. Entries link to a project's canonical home, never to a mirror.
 
 **Host coverage:** GitHub, GitLab, and Codeberg were all searched. Nothing on GitLab or Codeberg clears the bar today — the closest is a 1-star Codeberg todo tool of uncertain Herdr relevance; the genuine Herdr plugins found there all sit at 0 stars, tracked in [`data/sources.json`](data/sources.json) for re-checking. Worth knowing if you host there: `herdr plugin install` takes a GitHub `owner/repo` only, so a plugin hosted elsewhere is installed by cloning it and running `herdr plugin link <path>`.
 
-**How the plugin entries were picked:** every repository in Herdr's [marketplace](https://herdr.dev/plugins/) with 25+ stars — 94 of the 1,915 — ranked and checked one by one. What is missing is missing on purpose: personal dotfiles repositories, tools where Herdr is one interchangeable backend among several rather than the point, and otherwise-qualifying projects that ship no license, including `pi-extensible-workflows` (⭐ 248), `herdr-board` (⭐ 183), and `herdr-tab-smart-rename` (⭐ 78). They are recorded in [`data/sources.json`](data/sources.json) and go back under review the moment a license appears. `herdrm` (⭐ 773), a native macOS agent console, adopted one on 2026-09-10, but it is the noncommercial PolyForm license, so it is tracked rather than headed here until noncommercial terms are confirmed to clear the bar.
+**How the plugin entries were picked:** every repository in Herdr's [marketplace](https://herdr.dev/plugins/) with 25+ stars — 94 of the 1,924 — ranked and checked one by one. What is missing is missing on purpose: personal dotfiles repositories, tools where Herdr is one interchangeable backend among several rather than the point, and otherwise-qualifying projects that ship no license, including `pi-extensible-workflows` (⭐ 248), `herdr-board` (⭐ 183), and `herdr-tab-smart-rename` (⭐ 78). They are recorded in [`data/sources.json`](data/sources.json) and go back under review the moment a license appears. `herdrm` (⭐ 773), a native macOS agent console, adopted one on 2026-09-10, but it is the noncommercial PolyForm license, so it is tracked rather than headed here until noncommercial terms are confirmed to clear the bar.
 
-**Signals collected:** 2026-10-25, via the GitHub, GitLab, and Codeberg APIs and by reading each linked page. Star counts move; treat them as an order of magnitude.
+**Signals collected:** 2026-10-26, via the GitHub, GitLab, and Codeberg APIs and by reading each linked page. Star counts move; treat them as an order of magnitude.
 
 ## Contents
 
@@ -34,9 +34,9 @@ Herdr's plugin marketplace is unmoderated: any repository tagged `herdr-plugin` 
 
 Everything else in this list is deliberately slow. This section is the opposite: news, releases, and notable use, refreshed weekly. Items are dated, carry a source, and are dropped once they are ~8 weeks old or superseded — so an empty-ish Trending section means a quiet month, not a neglected list.
 
-**Refreshed:** 2026-10-25.
+**Refreshed:** 2026-10-26.
 
-- **2026-10-25 · Growth** — **45,802** stars on 2026-10-25, up from 42,344 on 2026-10-05 and roughly 15k in early July, when it hit #1 on GitHub Trending; the 0.9 announcement put downloads above **700,000**. The plugin marketplace holds **1,915** repositories on the same date, up from 1,538; 94 of them clear this list's 25-star bar, up from 83. [Repository](https://github.com/herdrdev/herdr) · [Marketplace](https://herdr.dev/plugins/) · [Downloads](https://herdr.dev/blog/connecting-the-machines/)
+- **2026-10-26 · Growth** — **45,899** stars on 2026-10-26, up from 42,344 on 2026-10-05 and roughly 15k in early July, when it hit #1 on GitHub Trending; the 0.9 announcement put downloads above **700,000**. The plugin marketplace holds **1,924** repositories on the same date, up from 1,538; 94 of them clear this list's 25-star bar, up from 83. [Repository](https://github.com/herdrdev/herdr) · [Marketplace](https://herdr.dev/plugins/) · [Downloads](https://herdr.dev/blog/connecting-the-machines/)
 - **2026-10-13 · Release v0.9.4 / v0.9.5** — v0.9.4 adds `herdr plugin update` (one command to update all GitHub-installed plugins without config reload, while running panes keep working on their old files), persistent Windows sessions across machine restart, and improved idle detection for Antigravity and Grok. v0.9.5 (2026-10-14 hotfix) restores prefix shortcuts for Chinese, Japanese, and Korean input methods on macOS (Tern and `text:` keybinds), fixes Codex session tracking and Claude Code blocked-question display. [v0.9.4](https://github.com/herdrdev/herdr/releases/tag/v0.9.4) · [v0.9.5](https://github.com/herdrdev/herdr/releases/tag/v0.9.5)
 - **2026-09-29 · Breaking changes in v0.9.2** — The Herdr-specific pane graphics API is **removed**: `pane.graphics.info`, `set`, `clear`, and `stream` now return `unknown_method`. Plugins that display images must switch to standard **Kitty graphics protocol**, which Herdr now renders natively. [Release notes](https://github.com/herdrdev/herdr/releases/tag/v0.9.2)
 - **2026-09-24 · Adoption** — **GENDA Inc.**, a Japanese entertainment company, published a retrospective by one of its development engineers: a custom plugin that placed Claude Code and Codex in role-based Herdr panes, why they stopped using it as models improved, and that they still work in Herdr panes. The first named company found documenting its engineers' use of Herdr. It is a retrospective, with no scale or cost figures. [Post (Japanese)](https://zenn.dev/genda_jp/articles/baton-retrospective-model-evolution)
@@ -70,6 +70,7 @@ Everything else in this list is deliberately slow. This section is the opposite:
 - [omarchy-herdr](https://github.com/jankeesvw/omarchy-herdr) — Omarchy bar widget that shows the count and contents of running Herdr servers; one click opens the session in Herdr. Built for Omarchy (DHH's Arch-based Linux distribution) but works in any bar that supports it. ⭐ 57 · MIT
 - [herdr-sessionizer](https://github.com/andrewchng/herdr-sessionizer) — Fuzzy-open projects and worktrees, then bootstrap workspaces from declarative TOML. For the tmux-sessionizer crowd. ⭐ 52 · MIT
 - [herdr-plugin-sesh](https://github.com/fullerzz/herdr-plugin-sesh) — Sesh-style workspace picker TUI, integrated with zoxide so frequently used directories surface first. ⭐ 51 · MIT
+- [herdr-workflows](https://github.com/aorumbayev/herdr-workflows) — Record a repeated sequence in a Herdr pane as a short YAML workflow file and replay it from a hotkey; steps can run shell commands, start coding agents and wait for them, call Herdr API methods, or chain other workflows. ⭐ 37 · MIT
 
 ## Browsers and viewers
 
