@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "bar": "≥25 stars on GitHub, or ≥10 on GitLab/Codeberg (smaller populations, so the same count means more); licensed, pushed within 60 days, not archived, Herdr-specific — or official. Articles: substantive first-hand accounts. Link canonical homes, never mirrors.",
   "notes": "Authoritative over README.md. Rules live in .claude/skills/awesome-source-audit/SKILL.md. The marketplace held 605 herdr-plugin repositories at seed time; this ledger is the filter over it.",
   "audits": [
@@ -708,6 +708,71 @@
         "Rejected article URLs from search results: web fetch blocked from sandbox (ECONNREFUSED). Cannot verify; recorded in gaps."
       ],
       "notes": "Git section open question: Crokily/herdr-lazygit to probation leaves devashish2203/herdr-worktrunk as sole Git entry. Rule requires 2 entries per section. Options: (a) wait for rabeeh-ta/herdr-git-graph sighting 3 next week (sighting 2 this run, 39★, Nov 12 push); (b) dissolve Git section and move herdr-worktrunk to Extras (Extras at cap). Flag for human — settle by 2026-11-30. Phone at cap (8/8): minchenlee/flockbook (sighting 3) and h3nock/remux (sighting 1) waiting. Open human questions: (1) PolyForm Noncommercial (missuo/herdrm, 796★) — open since 2026-09-22, now at sighting 3, critical — settle by 2026-12-07; (2) SUL-1.0 (sisyphuslabs/dori-superagent, 241★) — opened 2026-11-09, settle by 2026-11-30; (3) Git section collapse — settle by 2026-11-30; (4) Orchestration split vs expand — 5 qualified entries deferred; (5) Articles split vs expand — 10 qualified entries deferred; (6) natori-hrj/herdr-lazy vs speardragon/herdr-plugin-manager overlap; (7) timvdhoorn/stream-deck-herdr-plugin at sighting 3, Extras opening needed; (8) missuo/herdrm license must be resolved by 2026-12-07 (at sighting 3, next run would be listing time if resolved)."
+    },
+    {
+      "date": "2026-11-23",
+      "kind": "weekly",
+      "verified": 110,
+      "unverified": [
+        "timtech4u.medium.com — HTTP 403 (sandbox blocked); carries sighting 2 forward",
+        "medium.com/@haberlah — HTTP 403 (sandbox blocked); carries sighting 2 forward",
+        "Codeberg — HTTP 429 (rate limited)",
+        "Reddit (all subreddits) — HTTP 403 (blocked)"
+      ],
+      "searched": "GitHub authenticated (core ~4927/5000 remaining): topic:herdr-plugin stars≥25 (103 total, all 100 reviewed in page 1); topic:herdr stars≥25 (60, 21 new from plugin search, all reviewed). GitLab: topic=herdr-plugin returned 2 repos (0★ each, below 10-star bar). Codeberg: HTTP 429 rate limited. Reddit: HTTP 403 blocked. herdr.dev blog: 5 posts, most recent 2026-09-08 (Herdr raised $6M seed — missed by prior audits, now >8 weeks old). herdrdev/herdr: 52,409★, v0.9.5 current. herdrdev/herdr-app: 3,362★ (356 growth in 7 days). Article verification: previously-blocked articles now accessible (HTTP 200 via curl). SaifHarding/herdr-cloudflare found as new herdr-plugin.toml entry. sisyphuslabs/doriterm evaluated and rejected (not herdr-specific).",
+      "changes": "6 candidate→listed (StructuPath/herdr-browser Browsers 3→4; IvoryHeart/herdr-world Remote 7→8=cap; AVGVSTVS96/herdr-drovr Navigation 7→8=cap; rabeeh-ta/herdr-git-graph Git 1→2 resolving Git section open question; ChmaraX/herdr-gitview Git 2→3; FlorisKr/herdr-openspec Reviewing 6→7). Net listed: 72+6=78.",
+      "trending": "1 expired (GENDA adoption 2026-09-24). Growth updated: 52,409★, 103 marketplace repos at 25+. 4 items remain.",
+      "probation": [
+        "github-com-StructuPath-herdr-browser — sighting 3, listed this run (Browsers 3→4)",
+        "github-com-IvoryHeart-herdr-world — sighting 3, listed this run (Remote 7→8=cap)",
+        "github-com-AVGVSTVS96-herdr-drovr — sighting 3, listed this run (Navigation 7→8=cap)",
+        "github-com-rabeeh-ta-herdr-git-graph — sighting 3, listed this run (Git 1→2; resolves Git section open question)",
+        "github-com-ChmaraX-herdr-gitview — sighting 3, listed this run (Git 2→3)",
+        "github-com-FlorisKr-herdr-openspec — sighting 3, listed this run (Reviewing 6→7)",
+        "github-com-brogrammerMW-herdr-voice — sighting 3, Extras at cap (8/8)",
+        "github-com-0xGosu-herdr-auto-pilot — sighting 3, Orchestration at cap (8/8)",
+        "github-com-Davidcreador-herdr-token-dashboard — sighting 3, Orchestration at cap (8/8)",
+        "github-com-ezcorp-org-herdr-pc-ram-and-cpu-usage-overlay — sighting 3, Orchestration at cap (8/8)",
+        "github-com-JoseValencia125-agents-pixel-dungeon — sighting 3, Extras at cap (8/8)",
+        "github-com-BlackAngel242-MyTeam — sighting 3, Extras at cap (8/8)",
+        "github-com-tuan3w-herdr-mobile — sighting 3, Phone at cap (8/8)",
+        "github-com-DnzzL-herdr-automations — sighting 3, Orchestration at cap (8/8)",
+        "github-com-beyondlex-herdr-recent-navigator — sighting 3, Navigation at cap after herdr-drovr listed",
+        "github-com-stevenmichaelthomas-numbrone — sighting 3, Orchestration at cap (8/8)",
+        "github-com-sisyphuslabs-dori-superagent — sighting 3, Orchestration at cap + license=NOASSERTION (deadline 2026-11-30)",
+        "github-com-yankewei-herdr-focus-notify — sighting 3, no section assigned; Orchestration+Extras both at cap",
+        "github-com-yuk1ty-herdr-spreader — sighting 1→2, active 2 consecutive weeks (push 2026-11-18, 5 days)",
+        "github-com-lmilojevicc-herdr-splits-nvim — sighting 1→2, active 2 consecutive weeks (push 2026-11-11, 12 days)",
+        "news-ycombinator-com-item?id=50298436 — sighting 3, Discussion has room (4/8); probation pending human confirmation (sandbox cannot render page)",
+        "All existing sightings=3 probation entries: continue status (caps unchanged, liveness issues where noted)"
+      ],
+      "candidates": [
+        "github-com-SaifHarding-herdr-cloudflare — sighting 1 of 3, 35★, MIT, Cloudflare deploy monitor for Herdr",
+        "github-com-furkankly-zoetrope — sighting 1→2, 1198★, MIT (flow graph viewer with herdr-plugin/ subdir)",
+        "github-com-h3nock-remux — sighting 1→2, 540★, MIT (iOS Herdr client)",
+        "github-com-osolmaz-pi-workflows — sighting 1→2, 365★, MIT (Pi workflows with Herdr worktrees)",
+        "github-com-quaresc-cockpit — sighting 1→2, 55★, MIT",
+        "github-com-senna-lang-herdr-agent-usage — sighting 1→2, 69★, MIT (potential overlap with levi-qiao/herdr-agent-usage, open question)",
+        "github-com-ntindle-herdr-resurrect — sighting 1→2, 44★, MIT",
+        "github-com-ericbust-namedrop — sighting 1→2, 44★, MIT",
+        "github-com-oborchers-proqi — sighting 1→2, 47★, MIT",
+        "github-com-munza-herdr-mods — sighting 1→2, 46★, Apache-2.0",
+        "github-com-fivetaku-whosup — sighting 1→2, 41★, MIT",
+        "github-com-MattJColes-herdr-web-browser — sighting 1→2, 39★, MIT"
+      ],
+      "decisions": [
+        "Listed StructuPath/herdr-browser (Browsers, 33★, MIT): reached sighting 3. Drivable agent-browser pane. Browsers 3→4.",
+        "Listed IvoryHeart/herdr-world (Remote access, 73★, MIT): reached sighting 3. Visualize and control agents across hosts. Remote 7→8=cap.",
+        "Listed AVGVSTVS96/herdr-drovr (Navigation, 26★, MIT): reached sighting 3. Keyboard pane/tab mover. Navigation 7→8=cap. beyondlex/herdr-recent-navigator (25★) also at sighting 3 but Navigation now at cap; moves to probation.",
+        "Listed rabeeh-ta/herdr-git-graph (Git, 49★, MIT): reached sighting 3. Git Graph for Herdr desktop. Git 1→2. RESOLVES the Git section open question (deadline 2026-11-30) — section now has 2 entries.",
+        "Listed ChmaraX/herdr-gitview (Git, 51★, MIT): reached sighting 3. Git review panel. Git 2→3.",
+        "Listed FlorisKr/herdr-openspec (Reviewing, 35★, MIT): reached sighting 3. OpenSpec status and change browser. Reviewing 6→7.",
+        "Phase 5 weakest: Tyru5/herdr-floax (29★, Extras, push 2026-11-08). Still qualifies. No action.",
+        "Rejected sisyphuslabs/doriterm (54★, AGPL-3.0): standalone terminal manager (devices, E2E mesh) that includes Herdr support but is not Herdr-specific.",
+        "herdr.dev $6M seed raise (2026-09-08) noted in blog — now >8 weeks old, outside trending window. Gap: missed by prior audits.",
+        "Duplicate entries in sources.json noted (25 URLs with 2-3 entries each from re-evaluations) — not cleaned this run, flagged for a maintenance pass."
+      ],
+      "notes": "Git section open question (deadline 2026-11-30) RESOLVED: rabeeh-ta/herdr-git-graph listed this run, Git section now has 2 active entries (devashish2203/herdr-worktrunk + rabeeh-ta/herdr-git-graph). Crokily/herdr-lazygit remains in probation (push 2026-09-14=70d, stale). Open human questions: (1) PolyForm Noncommercial (missuo/herdrm, 798★) — settle by 2026-12-07; (2) SUL-1.0/NOASSERTION (sisyphuslabs/dori-superagent, 258★) — settle by 2026-11-30 URGENT; (3) Orchestration split vs expand — 8+ entries blocked waiting; (4) Articles split vs expand — 10+ entries at sighting 3 blocked; (5) natori-hrj/herdr-lazy vs speardragon/herdr-plugin-manager overlap; (6) HN thread 50298436 (sighting 3, Discussion) — confirm listing; (7) senna-lang/herdr-agent-usage vs levi-qiao/herdr-agent-usage overlap; (8) yankewei/herdr-focus-notify needs section assignment."
     }
   ],
   "sources": [
@@ -719,16 +784,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 51263,
+        "stars": 52409,
         "license": "Apache-2.0",
-        "last_push": "2026-11-07",
+        "last_push": "2026-11-19",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": true,
       "last_change": null,
@@ -742,8 +807,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -765,8 +830,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -785,8 +850,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -805,8 +870,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -825,8 +890,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -845,16 +910,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 997,
+        "stars": 1016,
         "license": "MIT",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-21",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -868,16 +933,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 708,
+        "stars": 723,
         "license": "MIT",
         "last_push": "2026-11-07",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -891,16 +956,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
         "stars": 554,
         "license": "MIT",
-        "last_push": "2026-10-31",
+        "last_push": "2026-11-21",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -914,16 +979,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 189,
+        "stars": 190,
         "license": "MIT",
         "last_push": "2026-11-05",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -937,20 +1002,20 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 144,
+        "stars": 146,
         "license": "MIT",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-18",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-10-25",
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release. Moved to probation 2026-10-25: push 2026-08-16 = 70 days past the 60-day liveness bar. Not a strike; liveness failure starts probation, not removal. | 2026-11-16: push 2026-11-16 — recovers from staleness (was 85 days). Active."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release. Moved to probation 2026-10-25: push 2026-08-16 = 70 days past the 60-day liveness bar. Not a strike; liveness failure starts probation, not removal. | 2026-11-16: push 2026-11-16 — recovers from staleness (was 85 days). Active. Recovered from staleness; active 2 consecutive audits as of 2026-11-23."
     },
     {
       "id": "github-com-andrewchng-herdr-sessionizer",
@@ -960,16 +1025,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 53,
+        "stars": 54,
         "license": "MIT",
         "last_push": "2026-10-26",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -983,16 +1048,16 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-11-09",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 46,
+        "stars": 47,
         "license": "MIT",
         "last_push": "2026-06-29",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-08-29",
@@ -1006,8 +1071,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -1015,7 +1080,7 @@
         "license": "MIT",
         "last_push": "2026-11-13",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1029,7 +1094,7 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-10-26",
       "strikes": 0,
       "sightings": 1,
@@ -1038,7 +1103,7 @@
         "license": "MIT",
         "last_push": "2026-09-03",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -1052,16 +1117,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 1662,
+        "stars": 1694,
         "license": "MIT",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-09-12: scope broadened — Collie now connects to one multiplexer per instance (Herdr, tmux, or zellij), added 2026-08-19 via its mux contract and zellij adapter and missed by the 2026-08-29 and 2026-09-08 audits. README states Herdr is the primary supported target in 1.0 and tmux/zellij are experimental. Still Herdr-specific; stays listed, not a strike.",
@@ -1075,16 +1140,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 451,
+        "stars": 457,
         "license": "NOASSERTION",
-        "last_push": "2026-11-02",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1098,16 +1163,16 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-10-25",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 264,
+        "stars": 266,
         "license": "MIT",
         "last_push": "2026-09-06",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -1121,16 +1186,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 382,
+        "stars": 391,
         "license": "NOASSERTION",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-21",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1144,8 +1209,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -1153,7 +1218,7 @@
         "license": "MIT",
         "last_push": "2026-11-02",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1167,20 +1232,20 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 68,
+        "stars": 69,
         "license": "MIT",
         "last_push": "2026-11-11",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-10-25",
-      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release. Moved to probation 2026-10-25: push 2026-08-17 = 69 days past the 60-day liveness bar. Not a strike; liveness failure starts probation, not removal. | 2026-11-16: push 2026-11-11 — recovers from staleness (was 84 days). Active."
+      "notes": "Seed entry: metadata verified (stars, license, activity) and the linked page read. Hands-on use not yet performed — first audit should confirm it works on the current release. Moved to probation 2026-10-25: push 2026-08-17 = 69 days past the 60-day liveness bar. Not a strike; liveness failure starts probation, not removal. | 2026-11-16: push 2026-11-11 — recovers from staleness (was 84 days). Active. Recovered from staleness; active 2 consecutive audits as of 2026-11-23."
     },
     {
       "id": "github-com-ogulcancelik-herdr-browser",
@@ -1190,16 +1255,16 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-11-09",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 359,
+        "stars": 361,
         "license": "MIT",
         "last_push": "2026-08-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-10-25",
@@ -1213,16 +1278,16 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-10-26",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 382,
+        "stars": 385,
         "license": "MIT",
         "last_push": "2026-09-04",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -1236,8 +1301,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -1259,8 +1324,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -1282,8 +1347,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -1305,8 +1370,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -1330,16 +1395,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 305,
+        "stars": 317,
         "license": "MIT",
         "last_push": "2026-11-14",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1422,7 +1487,7 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-11-09",
       "strikes": 0,
       "sightings": 1,
@@ -1431,7 +1496,7 @@
         "license": "MIT",
         "last_push": "2026-08-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-10-25",
@@ -1445,16 +1510,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
         "stars": 52,
         "license": "MIT",
-        "last_push": "2026-11-14",
+        "last_push": "2026-11-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1468,16 +1533,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 1539,
+        "stars": 1550,
         "license": "MIT",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-21",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-08-29",
@@ -1491,7 +1556,7 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-11-09",
       "strikes": 0,
       "sightings": 1,
@@ -1500,7 +1565,7 @@
         "license": "MIT",
         "last_push": "2026-06-24",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-08-29",
@@ -1514,16 +1579,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 4675,
+        "stars": 4756,
         "license": "MIT",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1537,7 +1602,7 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-10-26",
       "strikes": 0,
       "sightings": 1,
@@ -1546,7 +1611,7 @@
         "license": "MIT",
         "last_push": "2026-09-06",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -1560,8 +1625,8 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
@@ -1569,7 +1634,7 @@
         "license": "MIT",
         "last_push": "2026-11-09",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1583,16 +1648,16 @@
       "status": "listed",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 317,
+        "stars": 321,
         "license": "MIT",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1606,7 +1671,7 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-11-09",
       "strikes": 0,
       "sightings": 1,
@@ -1615,7 +1680,7 @@
         "license": "MPL-2.0",
         "last_push": "2026-07-02",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-09-08: last push 2026-07-02, 68 days — past the 60-day liveness bar. Probation, not a strike; removed from the README until it is pushed again.",
@@ -1629,7 +1694,7 @@
       "status": "probation",
       "first_seen": "2026-08-12",
       "listed_since": "2026-08-12",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-11-09",
       "strikes": 0,
       "sightings": 1,
@@ -1638,7 +1703,7 @@
         "license": "MIT",
         "last_push": "2026-06-26",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-08-29",
@@ -1744,16 +1809,16 @@
       "status": "listed",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
         "stars": 151,
         "license": "MIT",
-        "last_push": "2026-11-11",
+        "last_push": "2026-11-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1767,16 +1832,16 @@
       "status": "listed",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 165,
+        "stars": 167,
         "license": "MIT",
         "last_push": "2026-10-07",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1790,16 +1855,16 @@
       "status": "probation",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-10-26",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 67,
+        "stars": 66,
         "license": "MIT",
         "last_push": "2026-08-31",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -1813,16 +1878,16 @@
       "status": "probation",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-11-09",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 29,
+        "stars": 28,
         "license": "MIT",
         "last_push": "2026-08-11",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-10-25",
@@ -1859,16 +1924,16 @@
       "status": "listed",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 235,
+        "stars": 211,
         "license": "MIT",
         "last_push": "2026-10-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -1882,16 +1947,16 @@
       "status": "probation",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
         "stars": 25,
         "license": "MIT",
-        "last_push": "2026-11-03",
+        "last_push": "2026-11-19",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-10-25",
@@ -1905,8 +1970,8 @@
       "status": "listed",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -1928,8 +1993,8 @@
       "status": "listed",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -1951,8 +2016,8 @@
       "status": "listed",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -1976,8 +2041,8 @@
       "status": "listed",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -2208,16 +2273,16 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 91,
+        "stars": 93,
         "license": "MIT",
         "last_push": "2026-10-20",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2231,16 +2296,16 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 378,
+        "stars": 386,
         "license": "MIT",
-        "last_push": "2026-11-14",
+        "last_push": "2026-11-17",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2254,7 +2319,7 @@
       "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-09-14",
       "strikes": 0,
       "sightings": 3,
@@ -2263,7 +2328,7 @@
         "license": "MIT",
         "last_push": "2026-09-14",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified. Push 2026-09-14 = 63 days past liveness bar."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-16: moved from listed to probation. Push 2026-09-14 is 63 days past the 60-day liveness bar.",
@@ -2277,16 +2342,16 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 36,
+        "stars": 37,
         "license": "MIT",
         "last_push": "2026-10-06",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2300,8 +2365,8 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -2309,7 +2374,7 @@
         "license": "MIT",
         "last_push": "2026-11-01",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2323,16 +2388,16 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 900,
+        "stars": 929,
         "license": "Apache-2.0",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2346,16 +2411,16 @@
       "status": "probation",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-11-09",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 154,
+        "stars": 155,
         "license": "Apache-2.0",
         "last_push": "2026-08-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-10-25",
@@ -2369,16 +2434,16 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 74,
+        "stars": 76,
         "license": "MIT",
-        "last_push": "2026-11-10",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2392,16 +2457,16 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 218,
+        "stars": 223,
         "license": "MIT",
-        "last_push": "2026-11-12",
+        "last_push": "2026-11-21",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2415,16 +2480,16 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 161,
+        "stars": 163,
         "license": "MIT",
-        "last_push": "2026-11-09",
+        "last_push": "2026-11-20",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -2438,16 +2503,16 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 761,
+        "stars": 786,
         "license": "MIT",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2461,16 +2526,16 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 326,
+        "stars": 330,
         "license": "MIT",
-        "last_push": "2026-11-09",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-09-14: repository renamed powerfooI/herdr-studio -> powerfooI/roamgate (HTTP 301 from the API and from github.com). URL, id, and title updated; not a strike.",
@@ -2484,16 +2549,16 @@
       "status": "listed",
       "first_seen": "2026-08-29",
       "listed_since": "2026-09-22",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 2269,
+        "stars": 2276,
         "license": "MIT",
-        "last_push": "2026-11-04",
+        "last_push": "2026-11-19",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2530,16 +2595,16 @@
       "status": "probation",
       "first_seen": "2026-09-12",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 796,
+        "stars": 798,
         "license": "NOASSERTION",
         "last_push": "2026-11-13",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr topic sweep."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-09-12: license appeared (PolyForm Noncommercial 1.0.0, 2026-09-10). Re-promoted from rejected to candidate, sighting 1 of 3.",
@@ -2737,16 +2802,16 @@
       "status": "listed",
       "first_seen": "2026-08-17",
       "listed_since": "2026-09-08",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 152,
+        "stars": 156,
         "license": "AGPL-3.0",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-09-08: repository renamed KaminariOS/whip -> kosumic/whip (HTTP 301). URL updated; not a strike.",
@@ -2760,16 +2825,16 @@
       "status": "listed",
       "first_seen": "2026-09-08",
       "listed_since": "2026-10-05",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 294,
+        "stars": 299,
         "license": "MIT",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2783,16 +2848,16 @@
       "status": "listed",
       "first_seen": "2026-09-08",
       "listed_since": "2026-10-05",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 57,
+        "stars": 58,
         "license": "MIT",
         "last_push": "2026-10-28",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2852,16 +2917,16 @@
       "status": "listed",
       "first_seen": "2026-09-08",
       "listed_since": "2026-10-05",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 59,
+        "stars": 60,
         "license": "MIT",
-        "last_push": "2026-10-13",
+        "last_push": "2026-11-16",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2875,8 +2940,8 @@
       "status": "probation",
       "first_seen": "2026-09-08",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -2884,7 +2949,7 @@
         "license": "MIT",
         "last_push": "2026-10-11",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2898,7 +2963,7 @@
       "status": "candidate",
       "first_seen": "2026-09-08",
       "listed_since": null,
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-10-25",
       "strikes": 0,
       "sightings": 1,
@@ -2907,7 +2972,7 @@
         "license": "MIT",
         "last_push": "2026-08-14",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified. Push 2026-08-14 = 94 days."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-10-25",
@@ -2921,16 +2986,16 @@
       "status": "listed",
       "first_seen": "2026-09-08",
       "listed_since": "2026-10-05",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 87,
+        "stars": 88,
         "license": "MIT",
         "last_push": "2026-10-19",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2944,8 +3009,8 @@
       "status": "listed",
       "first_seen": "2026-09-08",
       "listed_since": "2026-10-05",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -2953,7 +3018,7 @@
         "license": "MIT",
         "last_push": "2026-11-02",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -2990,16 +3055,16 @@
       "status": "listed",
       "first_seen": "2026-09-08",
       "listed_since": "2026-10-05",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
         "stars": 185,
         "license": "Apache-2.0",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -3013,8 +3078,8 @@
       "status": "listed",
       "first_seen": "2026-10-25",
       "listed_since": "2026-11-09",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -3022,7 +3087,7 @@
         "license": "MIT",
         "last_push": "2026-11-08",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -3151,7 +3216,7 @@
       "status": "probation",
       "first_seen": "2026-09-12",
       "listed_since": "2026-10-05",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-10-26",
       "strikes": 0,
       "sightings": 3,
@@ -3160,7 +3225,7 @@
         "license": "MIT",
         "last_push": "2026-09-09",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -3174,7 +3239,7 @@
       "status": "probation",
       "first_seen": "2026-09-12",
       "listed_since": "2026-10-05",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-11-09",
       "strikes": 0,
       "sightings": 3,
@@ -3183,7 +3248,7 @@
         "license": "MIT",
         "last_push": "2026-08-19",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-10-25",
@@ -3289,8 +3354,8 @@
       "status": "probation",
       "first_seen": "2026-09-12",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -3313,8 +3378,8 @@
       "status": "listed",
       "first_seen": "2026-09-12",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -3568,16 +3633,16 @@
       "status": "listed",
       "first_seen": "2026-09-14",
       "listed_since": "2026-10-05",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 89,
+        "stars": 93,
         "license": "MIT",
-        "last_push": "2026-10-30",
+        "last_push": "2026-11-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -3591,16 +3656,16 @@
       "status": "listed",
       "first_seen": "2026-09-14",
       "listed_since": "2026-10-05",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 130,
+        "stars": 129,
         "license": "MIT",
         "last_push": "2026-10-05",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -3637,8 +3702,8 @@
       "status": "probation",
       "first_seen": "2026-09-14",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -3802,16 +3867,16 @@
       "status": "listed",
       "first_seen": "2026-09-22",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 1148,
+        "stars": 1182,
         "license": "MIT",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -3825,16 +3890,16 @@
       "status": "listed",
       "first_seen": "2026-09-22",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 2307,
+        "stars": 2378,
         "license": "Apache-2.0",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -3848,16 +3913,16 @@
       "status": "listed",
       "first_seen": "2026-09-22",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 276,
+        "stars": 284,
         "license": "MIT",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-17",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -3871,16 +3936,16 @@
       "status": "listed",
       "first_seen": "2026-09-22",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 121,
+        "stars": 125,
         "license": "MIT",
         "last_push": "2026-10-29",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -3894,16 +3959,16 @@
       "status": "listed",
       "first_seen": "2026-09-22",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 206,
+        "stars": 207,
         "license": "MIT",
         "last_push": "2026-11-05",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -3917,16 +3982,16 @@
       "status": "listed",
       "first_seen": "2026-09-22",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 123,
+        "stars": 124,
         "license": "MIT",
         "last_push": "2026-11-11",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -3940,16 +4005,16 @@
       "status": "probation",
       "first_seen": "2026-09-22",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 70,
+        "stars": 85,
         "license": "MIT",
-        "last_push": "2026-11-08",
+        "last_push": "2026-11-18",
         "kind": "github",
-        "method": "GitHub API 2026-11-09; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -3963,16 +4028,16 @@
       "status": "listed",
       "first_seen": "2026-09-22",
       "listed_since": "2026-11-09",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 42,
+        "stars": 43,
         "license": "MIT",
         "last_push": "2026-10-08",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -3986,16 +4051,16 @@
       "status": "candidate",
       "first_seen": "2026-09-22",
       "listed_since": null,
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-10-25",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 27,
+        "stars": 29,
         "license": "MIT",
         "last_push": "2026-07-29",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified. Push 2026-07-29 = 110 days."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -4009,16 +4074,16 @@
       "status": "probation",
       "first_seen": "2026-09-22",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 38,
+        "stars": 39,
         "license": "MIT",
         "last_push": "2026-09-27",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -4032,16 +4097,16 @@
       "status": "probation",
       "first_seen": "2026-09-22",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 27,
+        "stars": 28,
         "license": "MIT",
         "last_push": "2026-11-12",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -4147,8 +4212,8 @@
       "status": "listed",
       "first_seen": "2026-09-22",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -4171,8 +4236,8 @@
       "status": "listed",
       "first_seen": "2026-09-22",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -4195,8 +4260,8 @@
       "status": "listed",
       "first_seen": "2026-09-22",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -4219,8 +4284,8 @@
       "status": "probation",
       "first_seen": "2026-09-22",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -4435,16 +4500,16 @@
       "status": "listed",
       "first_seen": "2026-09-28",
       "listed_since": "2026-10-26",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 49,
+        "stars": 53,
         "license": "MIT",
         "last_push": "2026-10-28",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -4458,16 +4523,16 @@
       "status": "listed",
       "first_seen": "2026-09-28",
       "listed_since": "2026-10-25",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 233,
+        "stars": 241,
         "license": "Apache-2.0",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -4481,16 +4546,16 @@
       "status": "probation",
       "first_seen": "2026-09-28",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 76,
+        "stars": 81,
         "license": "MIT",
         "last_push": "2026-10-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -4504,7 +4569,7 @@
       "status": "probation",
       "first_seen": "2026-09-28",
       "listed_since": null,
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-11-09",
       "strikes": 0,
       "sightings": 3,
@@ -4513,7 +4578,7 @@
         "license": "MIT",
         "last_push": "2026-09-15",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -4616,23 +4681,23 @@
       "url": "https://github.com/yankewei/herdr-focus-notify",
       "title": "herdr-focus-notify",
       "section": null,
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-11-09",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": 34,
         "license": "MIT",
         "last_push": "2026-10-29",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
-      "notes": "Previously rejected: no license. MIT license now present. Re-enters Phase 3 at sighting 1. macOS notification plugin: clickable desktop notification when herdr agent is blocked or done. | 2026-11-16: sighting 2 of 3."
+      "notes": "Previously rejected: no license. MIT license now present. Re-enters Phase 3 at sighting 1. macOS notification plugin: clickable desktop notification when herdr agent is blocked or done. | 2026-11-16: sighting 2 of 3. Reached sighting 3 on 2026-11-23; blocked: No section assigned; closest sections (Orchestration, Extras) at cap."
     },
     {
       "id": "zenn-dev-circularuins-articles-herdr-parallel-token-economy",
@@ -4642,8 +4707,8 @@
       "status": "probation",
       "first_seen": "2026-09-28",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -4666,8 +4731,8 @@
       "status": "probation",
       "first_seen": "2026-09-28",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -4690,8 +4755,8 @@
       "status": "probation",
       "first_seen": "2026-09-28",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -4714,8 +4779,8 @@
       "status": "probation",
       "first_seen": "2026-09-28",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -4738,8 +4803,8 @@
       "status": "probation",
       "first_seen": "2026-09-28",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -4810,8 +4875,8 @@
       "status": "probation",
       "first_seen": "2026-09-28",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -4834,8 +4899,8 @@
       "status": "probation",
       "first_seen": "2026-09-28",
       "listed_since": null,
-      "last_verified": "2026-11-09",
-      "last_ok": "2026-11-09",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
@@ -5074,16 +5139,16 @@
       "status": "candidate",
       "first_seen": "2026-09-28",
       "listed_since": null,
-      "last_verified": "2026-11-09",
+      "last_verified": "2026-11-23",
       "last_ok": "2026-10-25",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 44,
+        "stars": 45,
         "license": "Apache-2.0",
         "last_push": "2026-08-10",
         "kind": "github",
-        "method": "GitHub API 2026-11-09; pushed 2026-08-10 (91 days, past bar). Not qualifying."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-10-25",
@@ -5097,16 +5162,16 @@
       "status": "listed",
       "first_seen": "2026-10-05",
       "listed_since": "2026-11-09",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 2076,
+        "stars": 2187,
         "license": "MIT",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-09",
@@ -5324,161 +5389,161 @@
       "url": "https://github.com/StructuPath/herdr-browser",
       "title": "herdr-browser",
       "section": "Browsers and viewers",
-      "status": "candidate",
+      "status": "listed",
       "first_seen": "2026-10-25",
-      "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "listed_since": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": 33,
         "license": "MIT",
-        "last_push": "2026-10-10",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23; herdr-plugin.toml verified"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Herdr-native browser pane with live streaming, real interaction, adaptive rendering, console/page errors, recording, and localhost routing. Topics: herdr, herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3."
+      "notes": "Herdr-native browser pane with live streaming, real interaction, adaptive rendering, console/page errors, recording, and localhost routing. Topics: herdr, herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3. Listed 2026-11-23. Drivable agent-browser pane for Herdr with live streaming, real interaction, adaptive rendering, console/page errors, recording, and localhost routing."
     },
     {
       "id": "github-com-brogrammerMW-herdr-voice",
       "url": "https://github.com/brogrammerMW/herdr-voice",
       "title": "herdr-voice",
       "section": "Extras",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-10-25",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 35,
+        "stars": 38,
         "license": "MIT",
         "last_push": "2026-09-26",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Voice conversation with coding agents in Herdr panes via Grok, OpenAI, or Gemini; agents reply with real-time speech. Topics: herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3."
+      "notes": "Voice conversation with coding agents in Herdr panes via Grok, OpenAI, or Gemini; agents reply with real-time speech. Topics: herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3. Reached sighting 3 on 2026-11-23; blocked: Extras at cap (8/8)."
     },
     {
       "id": "github-com-0xGosu-herdr-auto-pilot",
       "url": "https://github.com/0xGosu/herdr-auto-pilot",
       "title": "herdr-auto-pilot",
       "section": "Orchestration and agent status",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-10-25",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 32,
+        "stars": 31,
         "license": "MIT",
-        "last_push": "2026-11-10",
+        "last_push": "2026-11-20",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Herdr plugin that auto-prompts the running AI coding CLI via the Herdr API. Training mode learns from user actions; Full-Self Prompting mode. Topics: herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3."
+      "notes": "Herdr plugin that auto-prompts the running AI coding CLI via the Herdr API. Training mode learns from user actions; Full-Self Prompting mode. Topics: herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3. Reached sighting 3 on 2026-11-23; blocked: Orchestration at cap (8/8)."
     },
     {
       "id": "github-com-IvoryHeart-herdr-world",
       "url": "https://github.com/IvoryHeart/herdr-world",
       "title": "herdr-world",
       "section": "Remote access",
-      "status": "candidate",
+      "status": "listed",
       "first_seen": "2026-10-25",
-      "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "listed_since": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 53,
+        "stars": 73,
         "license": "MIT",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23; herdr-plugin.toml verified"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Herdr World: visualize agent work in Office, Tree, Graph, and Spaces; control Herdr agents across local and SSH hosts. Topics: herdr, herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3."
+      "notes": "Herdr World: visualize agent work in Office, Tree, Graph, and Spaces; control Herdr agents across local and SSH hosts. Topics: herdr, herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3. Listed 2026-11-23. Visualize agent work in Office, Tree, Graph, and Spaces views, and control Herdr agents across local and SSH hosts."
     },
     {
       "id": "github-com-Davidcreador-herdr-token-dashboard",
       "url": "https://github.com/Davidcreador/herdr-token-dashboard",
       "title": "herdr-token-dashboard",
       "section": "Orchestration and agent status",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-10-25",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": 29,
         "license": "MIT",
         "last_push": "2026-11-12",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Live token spend dashboard and notifications for Herdr agent panes. Topics: herdr, herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3."
+      "notes": "Live token spend dashboard and notifications for Herdr agent panes. Topics: herdr, herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3. Reached sighting 3 on 2026-11-23; blocked: Orchestration at cap (8/8)."
     },
     {
       "id": "github-com-ezcorp-org-herdr-pc-ram-and-cpu-usage-overlay",
       "url": "https://github.com/ezcorp-org/herdr-pc-ram-and-cpu-usage-overlay",
       "title": "herdr-pc-ram-and-cpu-usage-overlay",
       "section": "Orchestration and agent status",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-10-25",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 31,
+        "stars": 33,
         "license": "MIT",
-        "last_push": "2026-11-01",
+        "last_push": "2026-11-18",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Herdr plugin: live CPU/RAM usage per workspace, as a share of the whole machine. Topics: herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3."
+      "notes": "Herdr plugin: live CPU/RAM usage per workspace, as a share of the whole machine. Topics: herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3. Reached sighting 3 on 2026-11-23; blocked: Orchestration at cap (8/8)."
     },
     {
       "id": "github-com-AVGVSTVS96-herdr-drovr",
       "url": "https://github.com/AVGVSTVS96/herdr-drovr",
       "title": "herdr-drovr",
       "section": "Navigation and layout",
-      "status": "candidate",
+      "status": "listed",
       "first_seen": "2026-10-25",
-      "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "listed_since": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": 26,
         "license": "MIT",
         "last_push": "2026-10-10",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23; herdr-plugin.toml verified"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "fzf-powered pane and tab mover for Herdr. Topics: herdr, herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3."
+      "notes": "fzf-powered pane and tab mover for Herdr. Topics: herdr, herdr-plugin. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3. Listed 2026-11-23. Keyboard-driven pane and tab mover for Herdr."
     },
     {
       "id": "github-com-electric-dragon-80000v-pi-cowboy",
@@ -5488,16 +5553,16 @@
       "status": "probation",
       "first_seen": "2026-10-25",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
         "stars": 67,
         "license": "MIT",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-20",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr topic sweep."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -5511,16 +5576,16 @@
       "status": "probation",
       "first_seen": "2026-10-25",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 59,
+        "stars": 66,
         "license": "MIT",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-21",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -5531,46 +5596,46 @@
       "url": "https://github.com/JoseValencia125/agents-pixel-dungeon",
       "title": "agents-pixel-dungeon",
       "section": "Extras",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-10-25",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 38,
+        "stars": 50,
         "license": "MIT",
-        "last_push": "2026-11-04",
+        "last_push": "2026-11-20",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Native pixel-art dungeon for live Herdr coding agents; runs on macOS, Windows and Linux (Rust, egui). Topics: herdr. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3."
+      "notes": "Native pixel-art dungeon for live Herdr coding agents; runs on macOS, Windows and Linux (Rust, egui). Topics: herdr. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3. Reached sighting 3 on 2026-11-23; blocked: Extras at cap (8/8)."
     },
     {
       "id": "github-com-BlackAngel242-MyTeam",
       "url": "https://github.com/BlackAngel242/MyTeam",
       "title": "MyTeam",
       "section": "Extras",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-10-25",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 34,
+        "stars": 29,
         "license": "MIT",
         "last_push": "2026-11-12",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Pixel-art local control room for monitoring and piloting AI agent teams under Herdr. Node.js. Topics: herdr. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3."
+      "notes": "Pixel-art local control room for monitoring and piloting AI agent teams under Herdr. Node.js. Topics: herdr. Sighting 1 of 3. | 2026-11-16: sighting 2 of 3. Reached sighting 3 on 2026-11-23; blocked: Extras at cap (8/8)."
     },
     {
       "id": "github-com-termaxa-termaxa",
@@ -5695,16 +5760,16 @@
       "status": "listed",
       "first_seen": "2026-10-26",
       "listed_since": "2026-11-16",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 70,
+        "stars": 79,
         "license": "Apache-2.0",
-        "last_push": "2026-11-14",
+        "last_push": "2026-11-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified. 70★, Apache-2.0, pushed 2026-11-14."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-16: listed (sighting 3). Phone section 6→7.",
@@ -5718,16 +5783,16 @@
       "status": "listed",
       "first_seen": "2026-10-26",
       "listed_since": "2026-11-16",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 3,
       "evidence": {
-        "stars": 224,
+        "stars": 207,
         "license": "Apache-2.0",
-        "last_push": "2026-11-12",
+        "last_push": "2026-11-19",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified. 224★, Apache-2.0, pushed 2026-11-12."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": "2026-11-16: listed (sighting 3). Phone section 7→8 (at cap).",
@@ -5764,16 +5829,16 @@
       "status": "listed",
       "first_seen": "2026-11-09",
       "listed_since": "2026-11-09",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 3006,
+        "stars": 3362,
         "license": "Apache-2.0",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": true,
       "last_change": "2026-11-09",
@@ -5787,16 +5852,16 @@
       "status": "listed",
       "first_seen": "2026-11-09",
       "listed_since": "2026-11-09",
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
       "sightings": 1,
       "evidence": {
-        "stars": 730,
+        "stars": 875,
         "license": "Apache-2.0",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": true,
       "last_change": "2026-11-09",
@@ -5807,184 +5872,184 @@
       "url": "https://github.com/tuan3w/herdr-mobile",
       "title": "herdr mobile",
       "section": "Phone and mobile",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-11-09",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": 37,
         "license": "GPL-3.0",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Mobile companion app for Herdr. Shows all agents, allows answering. GPL-3.0. Different from benkraus/herdr-mobile. | 2026-11-16: sighting 2 of 3. GPL-3.0 license (copyleft — note in entry if listed)."
+      "notes": "Mobile companion app for Herdr. Shows all agents, allows answering. GPL-3.0. Different from benkraus/herdr-mobile. | 2026-11-16: sighting 2 of 3. GPL-3.0 license (copyleft — note in entry if listed). Reached sighting 3 on 2026-11-23; blocked: Phone at cap (8/8)."
     },
     {
       "id": "github-com-rabeeh-ta-herdr-git-graph",
       "url": "https://github.com/rabeeh-ta/herdr-git-graph",
       "title": "herdr-git-graph",
       "section": "Git and worktrees",
-      "status": "candidate",
+      "status": "listed",
       "first_seen": "2026-11-09",
-      "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "listed_since": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 39,
+        "stars": 49,
         "license": "MIT",
-        "last_push": "2026-11-12",
+        "last_push": "2026-11-21",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23; herdr-plugin.toml verified"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Native Herdr mod: git commit graph with branch lanes, merge history, multi-repo (Manygit). No web view. | 2026-11-16: sighting 2 of 3."
+      "notes": "Native Herdr mod: git commit graph with branch lanes, merge history, multi-repo (Manygit). No web view. | 2026-11-16: sighting 2 of 3. Listed 2026-11-23. Git Graph for the Herdr desktop app: commit lanes, branch and tag labels, double-click checkout, and right-click git actions."
     },
     {
       "id": "github-com-DnzzL-herdr-automations",
       "url": "https://github.com/DnzzL/herdr-automations",
       "title": "herdr-automations",
       "section": "Orchestration and agent status",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-11-09",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 35,
+        "stars": 42,
         "license": "MIT",
-        "last_push": "2026-11-04",
+        "last_push": "2026-11-21",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Scheduled coding-agent tasks: cron schedule + prompt + repo → fresh git worktree per run. | 2026-11-16: sighting 2 of 3."
+      "notes": "Scheduled coding-agent tasks: cron schedule + prompt + repo → fresh git worktree per run. | 2026-11-16: sighting 2 of 3. Reached sighting 3 on 2026-11-23; blocked: Orchestration at cap (8/8)."
     },
     {
       "id": "github-com-ChmaraX-herdr-gitview",
       "url": "https://github.com/ChmaraX/herdr-gitview",
       "title": "herdr-gitview",
       "section": "Git and worktrees",
-      "status": "candidate",
+      "status": "listed",
       "first_seen": "2026-11-09",
-      "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "listed_since": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 43,
+        "stars": 51,
         "license": "MIT",
-        "last_push": "2026-11-14",
+        "last_push": "2026-11-16",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23; herdr-plugin.toml verified"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Git diff viewer for Herdr app. Takes over Changes panel; Enter opens real nvim at focused line. | 2026-11-16: sighting 2 of 3."
+      "notes": "Git diff viewer for Herdr app. Takes over Changes panel; Enter opens real nvim at focused line. | 2026-11-16: sighting 2 of 3. Listed 2026-11-23. Git review panel for Herdr: browse diffs, edit in nvim, stage and commit, and send review notes back to the agent."
     },
     {
       "id": "github-com-beyondlex-herdr-recent-navigator",
       "url": "https://github.com/beyondlex/herdr-recent-navigator",
       "title": "herdr-recent-navigator",
       "section": "Navigation and layout",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-11-09",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 26,
+        "stars": 25,
         "license": "MIT",
         "last_push": "2026-10-18",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Recent workspaces/tabs/panes/agents switcher for Herdr. Fuzzy-search popup, keyboard-navigable. | 2026-11-16: sighting 2 of 3."
+      "notes": "Recent workspaces/tabs/panes/agents switcher for Herdr. Fuzzy-search popup, keyboard-navigable. | 2026-11-16: sighting 2 of 3. Reached sighting 3 on 2026-11-23; blocked: Navigation at cap after AVGVSTVS96/herdr-drovr listed."
     },
     {
       "id": "github-com-stevenmichaelthomas-numbrone",
       "url": "https://github.com/stevenmichaelthomas/numbrone",
       "title": "numbrone",
       "section": "Orchestration and agent status",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-11-09",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 141,
+        "stars": 144,
         "license": "MIT",
-        "last_push": "2026-11-09",
+        "last_push": "2026-11-17",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Orchestration: chief-of-staff routes requests to per-project managers, fanning out workers in parallel git worktrees inside Herdr. | 2026-11-16: sighting 2 of 3."
+      "notes": "Orchestration: chief-of-staff routes requests to per-project managers, fanning out workers in parallel git worktrees inside Herdr. | 2026-11-16: sighting 2 of 3. Reached sighting 3 on 2026-11-23; blocked: Orchestration at cap (8/8)."
     },
     {
       "id": "github-com-FlorisKr-herdr-openspec",
       "url": "https://github.com/FlorisKr/herdr-openspec",
       "title": "herdr-openspec",
       "section": "Reviewing and reading code",
-      "status": "candidate",
+      "status": "listed",
       "first_seen": "2026-11-09",
-      "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "listed_since": "2026-11-23",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
         "stars": 35,
         "license": "MIT",
         "last_push": "2026-10-07",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23; herdr-plugin.toml verified"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Herdr plugin: OpenSpec project status in sidebar, one-key access to tasks, proposal, design, specs. herdr-plugin.toml confirmed. | 2026-11-16: sighting 2 of 3."
+      "notes": "Herdr plugin: OpenSpec project status in sidebar, one-key access to tasks, proposal, design, specs. herdr-plugin.toml confirmed. | 2026-11-16: sighting 2 of 3. Listed 2026-11-23. OpenSpec project status in the sidebar and a change browser: tasks, proposals, design docs, and specs in a popup."
     },
     {
       "id": "github-com-sisyphuslabs-dori-superagent",
       "url": "https://github.com/sisyphuslabs/dori-superagent",
       "title": "dori-superagent",
       "section": "Orchestration and agent status",
-      "status": "candidate",
+      "status": "probation",
       "first_seen": "2026-11-09",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 2,
+      "sightings": 3,
       "evidence": {
-        "stars": 241,
+        "stars": 258,
         "license": "NOASSERTION",
-        "last_push": "2026-11-15",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; sweep verified."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
-      "notes": "Herdr-dependent orchestrator living in Slack/Discord/Telegram: each request gets its own agent session in herdr(-core). SUL-1.0 (Sustainable Use License, source-available, non-commercial-free) — open question same class as missuo/herdrm (PolyForm). Hold at sighting 1 pending license question. | 2026-11-16: sighting 2 of 3. License still NOASSERTION (SUL-1.0 question unresolved, opened 2026-11-09, settle by 2026-11-30)."
+      "notes": "Herdr-dependent orchestrator living in Slack/Discord/Telegram: each request gets its own agent session in herdr(-core). SUL-1.0 (Sustainable Use License, source-available, non-commercial-free) — open question same class as missuo/herdrm (PolyForm). Hold at sighting 1 pending license question. | 2026-11-16: sighting 2 of 3. License still NOASSERTION (SUL-1.0 question unresolved, opened 2026-11-09, settle by 2026-11-30). Reached sighting 3 on 2026-11-23; blocked: Orchestration at cap + license=NOASSERTION unresolved (deadline 2026-11-30)."
     },
     {
       "id": "github-com-sisyphuslabs-doriterm",
@@ -6109,16 +6174,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 536,
+        "stars": 540,
         "license": "MIT",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr topic sweep. 536★, MIT, pushed 2026-11-16."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6132,16 +6197,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 1174,
+        "stars": 1198,
         "license": "MIT",
         "last_push": "2026-11-03",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr-plugin topic sweep. 1174★, MIT, pushed 2026-11-03. herdr-plugin/ subdirectory confirmed."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6155,16 +6220,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
         "stars": 44,
         "license": "MIT",
         "last_push": "2026-11-11",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr-plugin topic sweep. 44★, MIT, pushed 2026-11-11. herdr-plugin.toml at root."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6178,16 +6243,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 39,
+        "stars": 44,
         "license": "MIT",
-        "last_push": "2026-11-16",
+        "last_push": "2026-11-18",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr-plugin topic sweep. 39★, MIT, pushed 2026-11-16. herdr-plugin.toml confirmed."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6201,16 +6266,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 38,
+        "stars": 41,
         "license": "MIT",
-        "last_push": "2026-11-11",
+        "last_push": "2026-11-21",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr-plugin topic sweep. 38★, MIT, pushed 2026-11-11. herdr-plugin.toml confirmed."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6224,16 +6289,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 46,
+        "stars": 55,
         "license": "MIT",
-        "last_push": "2026-11-11",
+        "last_push": "2026-11-20",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr topic sweep. 46★, MIT, pushed 2026-11-11. herdr-layout topic. No manifest at root or subdirs."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6247,16 +6312,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 31,
+        "stars": 46,
         "license": "Apache-2.0",
-        "last_push": "2026-11-14",
+        "last_push": "2026-11-23",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr topic sweep. 31★, Apache-2.0, pushed 2026-11-14. herdr-layout and herdr-mod topics."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6270,16 +6335,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
         "stars": 47,
         "license": "MIT",
         "last_push": "2026-10-25",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr-plugin topic sweep. 47★, MIT, pushed 2026-10-25. herdr-plugin.toml confirmed."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6293,16 +6358,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 66,
+        "stars": 69,
         "license": "MIT",
-        "last_push": "2026-11-13",
+        "last_push": "2026-11-21",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr-plugin topic sweep. 66★, MIT, pushed 2026-11-13. herdr-plugin.toml confirmed."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6316,16 +6381,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 364,
+        "stars": 365,
         "license": "MIT",
         "last_push": "2026-10-08",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr-plugin topic sweep. 364★, MIT, pushed 2026-10-08. herdr-plugin.toml at root."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6339,16 +6404,16 @@
       "status": "candidate",
       "first_seen": "2026-11-16",
       "listed_since": null,
-      "last_verified": "2026-11-16",
-      "last_ok": "2026-11-16",
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
       "strikes": 0,
-      "sightings": 1,
+      "sightings": 2,
       "evidence": {
-        "stars": 28,
+        "stars": 39,
         "license": "MIT",
-        "last_push": "2026-11-11",
+        "last_push": "2026-11-22",
         "kind": "github",
-        "method": "GitHub API 2026-11-16; herdr-plugin topic sweep. 28★, MIT, pushed 2026-11-11. herdr-plugin.toml confirmed."
+        "method": "GitHub API 2026-11-23"
       },
       "exempt_from_probation": false,
       "last_change": null,
@@ -6767,6 +6832,75 @@
       "exempt_from_probation": false,
       "last_change": null,
       "notes": "Rejected 2026-11-16: Automatically generate titles for herdr tabs from Claude Code and Codex conversations. Herdr-specific, but: (1) push 2026-09-11 = 66 days, past the 60-day liveness bar; (2) listed kryptamine/herdr-auto-title (294★) does the same job and is much more active. Would prefer the stronger incumbent."
+    },
+    {
+      "id": "github-com-SaifHarding-herdr-cloudflare",
+      "url": "https://github.com/SaifHarding/herdr-cloudflare",
+      "title": "herdr-cloudflare",
+      "section": "Extras",
+      "status": "candidate",
+      "first_seen": "2026-11-23",
+      "listed_since": null,
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
+      "strikes": 0,
+      "sightings": 1,
+      "evidence": {
+        "stars": 35,
+        "license": "MIT",
+        "last_push": "2026-11-05",
+        "kind": "github",
+        "method": "GitHub API 2026-11-23; herdr-plugin.toml present at root"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 of 3. Cloudflare Pages and Workers build status for Herdr: live dashboard pane, sidebar status, and deploy failure notifications. 35★, MIT, push 2026-11-05 (18 days). herdr-plugin.toml confirmed."
+    },
+    {
+      "id": "news-ycombinator-com-item?id=50298436",
+      "url": "https://news.ycombinator.com/item?id=50298436",
+      "title": "Herdr desktop app — HN thread",
+      "section": "Discussion",
+      "status": "probation",
+      "first_seen": "2026-10-30",
+      "listed_since": null,
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
+      "strikes": 0,
+      "sightings": 3,
+      "evidence": {
+        "stars": null,
+        "license": null,
+        "last_push": null,
+        "kind": "hn",
+        "method": "HN thread 2026-10-30 (367 upvotes); HTTP 200 confirmed 2026-11-23"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Sighting 1 established 2026-10-30 (trending item cite); sighting 2 documented in 2026-11-16 audit notes (not added to sources.json); sighting 3 this run (2026-11-23), HTTP 200 confirmed. Herdr native desktop app launch thread, 367 HN points. Discussion section has room (4/8). Probation pending human confirmation of listing — sandbox cannot render page content."
+    },
+    {
+      "id": "github-com-sisyphuslabs-doriterm",
+      "url": "https://github.com/sisyphuslabs/doriterm",
+      "title": "doriterm",
+      "section": null,
+      "status": "rejected",
+      "first_seen": "2026-11-23",
+      "listed_since": null,
+      "last_verified": "2026-11-23",
+      "last_ok": "2026-11-23",
+      "strikes": 0,
+      "sightings": 0,
+      "evidence": {
+        "stars": 54,
+        "license": "AGPL-3.0",
+        "last_push": "2026-11-23",
+        "kind": "github",
+        "method": "GitHub API 2026-11-23"
+      },
+      "exempt_from_probation": false,
+      "last_change": null,
+      "notes": "Rejected 2026-11-23: Self-hosted terminal app linking devices through E2E encrypted mesh (browser tab, phone, desktop app). Mentions Herdr in topics but is a standalone terminal manager that supports Herdr among others — not Herdr-specific. 54★, AGPL-3.0."
     }
   ],
   "trending_policy": "Trending items are exempt from the probation rule and are NOT sources: they are dated, sourced news items dropped after ~8 weeks or when superseded. A trending item never graduates into `sources` automatically — an entry must clear the normal bar on its own.",
@@ -6792,14 +6926,13 @@
       ]
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-23",
       "kind": "growth",
       "expires": "2027-01-18",
-      "text": "51,263 stars on 2026-11-16, up from 49,549 on 2026-11-09 (1,714 in 7 days); the plugin marketplace holds 2,140 repositories, up from 2,073; 101 of them clear this list's 25-star bar, up from 98 on 2026-11-09.",
+      "text": "52,409 stars on 2026-11-23, up from 51,263 on 2026-11-16 (1,146 in 7 days); the plugin marketplace holds 2,140+ repositories; 103 clear this list's 25-star bar, up from 101.",
       "sources": [
         "https://github.com/herdrdev/herdr",
-        "https://herdr.dev/plugins/",
-        "https://herdr.dev/blog/connecting-the-machines/"
+        "https://herdr.dev/tui/plugins/"
       ]
     },
     {
@@ -6809,15 +6942,6 @@
       "text": "v0.9.2 removes the Herdr-specific pane graphics API: pane.graphics.info, set, clear, and stream now return unknown_method; plugins that display images must switch to standard Kitty graphics protocol.",
       "sources": [
         "https://github.com/herdrdev/herdr/releases/tag/v0.9.2"
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "kind": "adoption",
-      "expires": "2026-11-19",
-      "text": "GENDA Inc., a Japanese entertainment company, published a retrospective by one of its development engineers on the company's Zenn publication: a custom plugin that placed Claude Code and Codex in role-based Herdr panes, why they stopped using it as models improved, and that they still work in Herdr panes. The first named company found documenting its engineers' use of Herdr. It is a retrospective, with no scale or cost figures.",
-      "sources": [
-        "https://zenn.dev/genda_jp/articles/baton-retrospective-model-evolution"
       ]
     }
   ]
